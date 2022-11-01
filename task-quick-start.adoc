@@ -23,7 +23,7 @@ Azure에서 Azure AD 응용 프로그램에 권한을 부여하고 응용 프로
 link:task-set-up-azure-ad.html["Azure AD 응용 프로그램을 설정하는 방법에 대해 알아봅니다"].
 
 [role="quick-margin-para"]
-Cloud Manager에서 * 작업 환경 추가 * > * Microsoft Azure * > * Azure NetApp Files * 를 클릭한 다음 AD 응용 프로그램에 대한 세부 정보를 제공합니다.
+BlueXP에서 * 작업 환경 추가 * > * Microsoft Azure * > * Azure NetApp Files * 를 클릭한 다음 AD 응용 프로그램에 대한 세부 정보를 제공합니다.
 
 [role="quick-margin-para"]
 link:task-create-working-env.html["작업 환경을 만드는 방법에 대해 알아봅니다"].

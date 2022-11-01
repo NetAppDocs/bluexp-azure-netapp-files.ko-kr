@@ -6,14 +6,10 @@
   <block id="5ef8b3581bd08eb7bd7df9da47cee4d9" category="paragraph">Azure에서 Azure AD 응용 프로그램에 권한을 부여하고 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사합니다.</block>
   <block id="4a6368bcf7e7a78b87f63c25a1738dcd" category="inline-link-macro">Azure AD 응용 프로그램을 설정하는 방법에 대해 알아봅니다</block>
   <block id="907e63fbdb2ca8abc79587ef5c9c9829" category="paragraph"><block ref="44b9747affc4b1ae04a7846ac71363e4" category="inline-link-macro-rx"></block>.</block>
-  <block id="2ce12157a5c44e5f94e50d438ab296af" category="paragraph">Cloud Manager에서 * 작업 환경 추가 * &gt; * Microsoft Azure * &gt; * Azure NetApp Files * 를 클릭한 다음 AD 응용 프로그램에 대한 세부 정보를 제공합니다.</block>
   <block id="328958ba41a282fb8b8b971eb10845bd" category="inline-link-macro">작업 환경을 만드는 방법에 대해 알아봅니다</block>
   <block id="75aec57e5da1cc40dc30b7d1be476ab4" category="paragraph"><block ref="87d286565b204dd2a8d4bf83463a6fe9" category="inline-link-macro-rx"></block>.</block>
-  <block id="e1f73accab4865ec518a6e2a1dcfe2a0" category="summary">Cloud Manager에서 Azure NetApp Files를 설정하고 관리할 수 있는 권한이 필요합니다. Azure Active Directory 응용 프로그램을 생성 및 설정하고 Cloud Manager에 필요한 Azure 자격 증명을 획득하여 Azure 계정에 필요한 권한을 부여할 수 있습니다.</block>
   <block id="9f6195430155a4712fbd4733de1876ca" category="doc">Azure AD 응용 프로그램을 설정합니다</block>
-  <block id="75c9da083cfcbcf861307c74d4e8455a" category="paragraph">Cloud Manager에서 Azure NetApp Files를 설정하고 관리할 수 있는 권한이 필요합니다. Azure AD(Active Directory) 응용 프로그램을 생성 및 설정하고 Cloud Manager에 필요한 Azure 자격 증명을 획득하여 Azure 계정에 필요한 권한을 부여할 수 있습니다.</block>
   <block id="250e9326aa08333e3f698ab1ba29c77e" category="section-title">AD 응용 프로그램을 만듭니다</block>
-  <block id="74d1a939799437de1aebdd73c8d188d3" category="paragraph">Cloud Manager가 역할 기반 액세스 제어에 사용할 수 있는 Azure AD 애플리케이션 및 서비스 보안 주체를 생성합니다.</block>
   <block id="9e0b4c608c2ed027fef07ddc68aae407" category="inline-link">Microsoft Azure 문서: 필요한 권한</block>
   <block id="f628a927678590abbad75664aa87e9c9" category="paragraph">Active Directory 응용 프로그램을 만들고 응용 프로그램을 역할에 할당하려면 Azure에 적절한 권한이 있어야 합니다. 자세한 내용은 을 참조하십시오<block ref="f85f976c363ea77b8f2232a1ebbc4d2d" category="inline-link-rx"></block>.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
@@ -25,21 +21,17 @@
   <block id="0e1ac21d4b9ed97a0c89007cafe6b733" category="list-text">새 등록 * 을 클릭합니다.</block>
   <block id="c9034af778b085a9440ffcb8389cc4db" category="list-text">응용 프로그램에 대한 세부 정보를 지정합니다.</block>
   <block id="46beecb01aa2327ae1886dfc53955977" category="list-text">* 이름 *: 응용 프로그램의 이름을 입력합니다.</block>
-  <block id="b44b0044d94eea0dfc4d5390f57210ab" category="list-text">* 계정 유형 *: 계정 유형을 선택합니다(모두 Cloud Manager와 연동함).</block>
   <block id="135a1682a5c17ecdf84e57a4dc0c0959" category="list-text">* URI 리디렉션 *: 이 필드는 비워 둘 수 있습니다.</block>
   <block id="9909e23ede42f2318acada35ac10bd3e" category="list-text">Register * 를 클릭합니다.</block>
   <block id="e762ce4f71e8abc9d8deee4d4b7277fe" category="list-text">응용 프로그램(클라이언트) ID * 와 * 디렉터리(테넌트) ID * 를 복사합니다.</block>
   <block id="8fd7e29954792b2ee199fcf4fb0e7dec" category="inline-image-macro">Azure Active Directory의 응용 프로그램에 대한 응용 프로그램(클라이언트) ID 및 디렉터리(테넌트) ID를 보여 주는 스크린샷</block>
   <block id="5ad288ed66148804e3cf03d2bc5454e7" category="paragraph"><block ref="5ad288ed66148804e3cf03d2bc5454e7" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="506668eebbea5e4488a02c02942b5090" category="paragraph">Cloud Manager에서 Azure NetApp Files 작업 환경을 생성할 때 애플리케이션의 애플리케이션(클라이언트) ID와 디렉토리(테넌트) ID를 제공해야 합니다. Cloud Manager는 ID를 사용하여 프로그래밍 방식으로 로그인합니다.</block>
-  <block id="8dafb3bad019ebbc8a72e153571d1561" category="list-text">Cloud Manager가 Azure AD에서 인증에 사용할 수 있도록 애플리케이션에 대한 클라이언트 암호를 생성합니다.</block>
   <block id="814ab761b05ac26a224a99eac97f2f4d" category="list-text">인증서 및 비밀 &gt; 새 클라이언트 비밀 * 을 클릭합니다.</block>
   <block id="56c696c4118c8dc3d2947c159fdbbb7c" category="list-text">비밀과 기간에 대한 설명을 제공하십시오.</block>
   <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">추가 * 를 클릭합니다.</block>
   <block id="a91d60261e2974b6b9f5d3d3d0abacdd" category="list-text">클라이언트 암호 값을 복사합니다.</block>
   <block id="5a3a4c596a95b6a9851a1c7b6539b0ea" category="inline-image-macro">Azure AD 서비스 보안 주체에 대한 클라이언트 암호를 보여 주는 Azure 포털의 스크린샷</block>
   <block id="950ba75831d4d2d13e40a65143eb8494" category="paragraph"><block ref="950ba75831d4d2d13e40a65143eb8494" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="db9dfec68245148f18aaf120679c64f0" category="paragraph">이제 AD 응용 프로그램이 설정되고 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사해야 합니다. Azure NetApp Files 작업 환경을 추가할 때 Cloud Manager에 이 정보를 입력해야 합니다.</block>
   <block id="50cb14609454c06c47e95e9d8a56adb5" category="section-title">앱을 역할에 할당합니다</block>
   <block id="4c52768b52ca020200e5a926929d951d" category="paragraph">서비스 보안 주체를 Azure 구독에 바인딩하고 필요한 권한이 있는 사용자 지정 역할을 할당해야 합니다.</block>
   <block id="c7fd7910cc533c79ed570ea74704425d" category="inline-link">Azure에서 사용자 지정 역할을 만듭니다</block>
@@ -69,7 +61,6 @@
   <block id="e33ca9bd2b94654f882a0e0ed82dec19" category="list-text">응용 프로그램을 선택하고 * 선택 * 을 클릭합니다.</block>
   <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">다음 * 을 클릭합니다.</block>
   <block id="e3bbb08034982e47da96f9df0529c14b" category="list-text">검토 + 할당 * 을 클릭합니다.</block>
-  <block id="b766fee3733d5baed5f39a28e1c936dd" category="paragraph">이제 Cloud Manager의 서비스 보안 주체에 해당 구독에 필요한 Azure 권한이 있습니다.</block>
   <block id="00cac13dd28e1d8ca100e2d8ab02878c" category="summary">작업 환경을 설정한 후에는 Azure NetApp Files 계정, 용량 풀, 볼륨 및 스냅샷을 관리할 수 있습니다.</block>
   <block id="a420aa39e55724ac60bb395b9bf12764" category="doc">Azure NetApp Files용 볼륨 관리</block>
   <block id="a2669b974873fd7c51079b5fcd7d7946" category="paragraph">스토리지 요구사항의 변화에 따라 기존 볼륨을 관리할 수 있습니다. 볼륨을 편집하고, 볼륨의 서비스 수준을 변경하고, 스냅샷 복사본을 관리하고, 볼륨을 삭제할 수 있습니다.</block>
@@ -96,9 +87,7 @@
   <block id="9497c556620605c0441cf034ff68a527" category="paragraph">더 이상 필요하지 않은 볼륨을 삭제합니다.</block>
   <block id="0dedd92db5a9dbde64f4da7d6f9d44b2" category="list-text">볼륨 위로 마우스를 가져간 후 * 삭제 * 를 클릭합니다.</block>
   <block id="085b0943196ae7c43e0a95af45bc731f" category="list-text">볼륨 삭제를 확인합니다.</block>
-  <block id="111f8adcabf0dbf53cb2df15a658fa78" category="summary">Cloud Manager에서 Azure NetApp Files 지원의 새로운 기능에 대해 알아보십시오.</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">새로운 기능</block>
-  <block id="38846f2e814afa2a7bb17dd217e62420" category="paragraph">Azure NetApp Files in Cloud Manager의 새로운 기능에 대해 알아보십시오.</block>
   <block id="860941d67aa8a8a442ba4a65191838cf" category="section-title">볼륨 템플릿 지원</block>
   <block id="28c1b76e8b0c8f418301bc750b4e9f0e" category="paragraph">새로운 애플리케이션 템플릿 서비스를 사용하면 Azure NetApp Files용 볼륨 템플릿을 설정할 수 있습니다. 용량 풀, 크기, 프로토콜, VNET 및 볼륨이 상주해야 하는 서브넷 등과 같은 특정 볼륨 매개 변수가 이미 템플릿에 정의되기 때문에 템플릿을 사용하면 작업이 더 쉬워집니다. 매개 변수가 이미 미리 정의된 경우 다음 볼륨 매개 변수로 건너뛸 수 있습니다.</block>
   <block id="65d2e55c231c87b516e734e63f823cf5" category="inline-link">응용 프로그램 템플릿 및 사용자 환경에서 응용 프로그램 템플릿을 사용하는 방법에 대해 알아봅니다</block>
@@ -121,7 +110,6 @@
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">볼륨 생성</block>
   <block id="15b71829402124199d38fc483f8a71b5" category="paragraph">새 Azure NetApp Files 계정 또는 기존 계정에 NFS 또는 SMB 볼륨을 생성할 수 있습니다.</block>
   <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">수행할 수 있습니다</block>
-  <block id="0073916db272db24e4fb9b9c6bc9d6f6" category="paragraph">"템플릿"이라는 Cloud Manager 기능을 사용하면 데이터베이스 또는 스트리밍 서비스와 같은 특정 애플리케이션의 워크로드 요구사항에 최적화된 볼륨을 생성할 수 있습니다. 조직에서 사용해야 하는 볼륨 템플릿을 만든 경우 를 따릅니다 <block ref="841f2986c591e442944fbc4b9e18c81f" category="inline-xref-macro-rx"></block>.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">시작하기 전에</block>
   <block id="871a29db0a928b46295d82cee2357c13" category="list-text">SMB를 사용하려면 DNS 및 Active Directory를 설정해야 합니다.</block>
   <block id="943219d5074bb5ad25a6a5caf2ffdd2a" category="list-text">SMB 볼륨을 생성할 계획이라면 연결할 수 있는 Windows Active Directory 서버가 있어야 합니다. 볼륨을 생성할 때 이 정보를 입력합니다.</block>
@@ -166,13 +154,11 @@
   <block id="b4798c3f6907cfb67d2e44f900cd8761" category="inline-xref">볼륨 생성 중</block>
   <block id="10b6f03dce4e3f947d351798e239e1a9" category="list-text">템플릿에서 하드 코딩되지 않은 모든 매개변수에 대한 값을 추가합니다. 을 참조하십시오 <block ref="0987d6f2734ae944e1736c1f24a760ec" category="inline-xref-macro-rx"></block> Azure NetApp Files 볼륨을 구축하기 위해 완료해야 하는 모든 매개 변수에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="2bc51d1d472e80f2611fe5ff280c4ebe" category="list-text">이 볼륨에 필요한 모든 매개 변수를 정의한 후 * 템플릿 실행 * 을 클릭합니다.</block>
-  <block id="b185109168e53693f7b6943d7df66166" category="paragraph">Cloud Manager는 볼륨을 프로비저닝하고 진행 상황을 볼 수 있도록 페이지를 표시합니다.</block>
   <block id="40136e65ff57723941fc2af2bf21d54a" category="inline-image-macro">템플릿에서 새 볼륨 생성 진행률을 보여 주는 스크린샷</block>
   <block id="4ad07dd99a58c5fa556826f4f972a56e" category="paragraph"><block ref="4ad07dd99a58c5fa556826f4f972a56e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3fcf4599fd910141dcd628a7411238d5" category="paragraph">그러면 새 볼륨이 작업 환경에 추가됩니다.</block>
   <block id="0753d577f87c3ce7385e295a5cc23407" category="paragraph">클라우드 볼륨을 계속 마운트합니다.</block>
   <block id="2a4a19d3d732c5f7aa35fa729ac0d8ac" category="section-title">볼륨을 마운트합니다</block>
-  <block id="86a3efaabfd178d684bcd98f4cd6434c" category="paragraph">Cloud Manager 내에서 마운트 지침에 액세스하여 볼륨을 호스트에 마운트할 수 있습니다.</block>
   <block id="8298547bbbd227879ca27d72eedeb07a" category="list-text">볼륨 위로 마우스를 이동하고 * 볼륨 마운트 * 를 선택합니다.</block>
   <block id="ed098667e58a3c583c4147e4fd6baaa8" category="inline-image-macro">볼륨 위로 커서를 가져가면 사용 가능한 작업의 스크린샷이 표시됩니다.</block>
   <block id="2bfbdc93a5a4003da1039544054d6805" category="paragraph"><block ref="2bfbdc93a5a4003da1039544054d6805" category="inline-image-macro-rx" type="image"></block></block>
@@ -183,8 +169,6 @@
   <block id="b4afab774d5aae036a66f2e95c63406b" category="list-text">다중 프로토콜을 지원하므로 Linux 및 Windows 애플리케이션 모두의 "리프트 및 이동"이 Azure에서 원활하게 실행됩니다.</block>
   <block id="86431e70f2e01436434235b95f27507f" category="list-text">여러 성능 계층을 통해 워크로드 성능 요구사항에 맞춰 조정할 수 있습니다.</block>
   <block id="0f5101975c831a1a6350155e818d4cbf" category="list-text">SAP HANA, GDPR 및 HIPAA를 비롯한 주요 인증을 통해 가장 까다로운 워크로드를 Azure로 마이그레이션할 수 있습니다.</block>
-  <block id="4b892d08b42aafcd301b83ab05b6e993" category="section-title">추가 기능은 Cloud Manager에서 제공됩니다</block>
-  <block id="f6c2d8c0ac94af2ace6bb1a673a447e2" category="list-text">NFS 또는 SMB 데이터를 Cloud Manager에서 Azure NetApp Files로 직접 마이그레이션 데이터 마이그레이션은 NetApp의 Cloud Sync 서비스를 통해 수행할 수 있습니다.</block>
   <block id="c9e8b2e7aec1baa65efcbe84dfc9d0ed" category="inline-link">Cloud Sync에 대해 자세히 알아보십시오</block>
   <block id="707476b7ceb8bcfdb9c13e59859ae97a" category="paragraph"><block ref="707476b7ceb8bcfdb9c13e59859ae97a" category="inline-link-rx"></block></block>
   <block id="25c46bef01bcfa77e5905b1d3308762a" category="list-text">클라우드 데이터 센스는 인공 지능(AI) 중심 기술을 사용하여 데이터 컨텍스트를 이해하고 Azure NetApp Files 계정에 상주하는 중요한 데이터를 식별할 수 있도록 도와줍니다.</block>
@@ -193,34 +177,23 @@
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
   <block id="b8371ae9d98b29b8335a4aea09cdaff3" category="inline-link">Azure NetApp Files 가격 보기</block>
   <block id="4b3f21f8a5b6bf8c27f851053be34ac4" category="paragraph"><block ref="4b3f21f8a5b6bf8c27f851053be34ac4" category="inline-link-rx"></block></block>
-  <block id="78f4bff896307cc838c262e1e49d9102" category="paragraph">가입 및 충전은 Cloud Manager가 아닌 Azure NetApp Files 서비스에서 관리합니다.</block>
   <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">지원 지역</block>
   <block id="d6c4ca89b6d4950d0522d6198b27af71" category="inline-link">지원되는 Azure 지역을 봅니다</block>
   <block id="e478c46d3908f35ce837f4cc77afb89b" category="paragraph"><block ref="e478c46d3908f35ce837f4cc77afb89b" category="inline-link-rx"></block></block>
   <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">도움말 보기</block>
   <block id="edc3629fc8102552dbd6ec1e10e2b821" category="paragraph">Azure NetApp Files와 관련된 기술 지원 문제의 경우 Azure 포털을 사용하여 Microsoft에 지원 요청을 기록하십시오. 연결된 Microsoft 구독을 선택하고 * 저장소 * 에서 * Azure NetApp Files * 서비스 이름을 선택합니다. Microsoft 지원 요청을 작성하는 데 필요한 나머지 정보를 제공합니다.</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="section-title">관련 링크</block>
-  <block id="aaffbc2ddc4092e845b033a565e591fb" category="inline-link">NetApp 클라우드 센트럴: Azure NetApp Files</block>
-  <block id="2a8128d1d5b93234cc425f95b2e992d8" category="list-text"><block ref="2a8128d1d5b93234cc425f95b2e992d8" category="inline-link-rx"></block></block>
   <block id="6c32a3d0f1a665987b98dde5a0f96d7d" category="inline-link">Azure NetApp Files 설명서</block>
   <block id="844f85f22af5197ff73f93313cd94cd1" category="list-text"><block ref="844f85f22af5197ff73f93313cd94cd1" category="inline-link-rx"></block></block>
   <block id="815e6b3583bbc9969fd306b9391ed0cb" category="inline-link">Cloud Sync 설명서</block>
   <block id="e66ce730725b027d172b1b3ee7612614" category="list-text"><block ref="e66ce730725b027d172b1b3ee7612614" category="inline-link-rx"></block></block>
-  <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp은 다양한 방법으로 Cloud Manager를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link-macro"></block>
-  <block id="314401814eaa768c4f6d593c27a2981d" category="summary">이렇게 하면 Azure NetApp Files이 Cloud Manager에서 제거됩니다. Azure NetApp Files 계정 또는 볼륨은 삭제되지 않습니다. 언제든지 Azure NetApp Files를 Cloud Manager에 다시 추가할 수 있습니다.</block>
   <block id="a5cd00357f60ad0eaa681bb68df15c6d" category="doc">Azure NetApp Files를 제거합니다</block>
   <block id="efe74b5ca066da05f9df0c24eabbf492" category="list-text">페이지 오른쪽 상단에서 작업 메뉴를 선택하고 * Azure NetApp Files 제거 * 를 클릭합니다.</block>
-  <block id="a6ca89f466d19e87794988d8a1f25d64" category="inline-image-macro">Azure NetApp Files 제거를 클릭하여 Cloud Manager 인터페이스에서 볼륨을 제거하는 스크린샷</block>
-  <block id="90ab7d419e5b436936c80f21ee230621" category="paragraph"><block ref="90ab7d419e5b436936c80f21ee230621" category="inline-image-macro-rx" type="image"></block></block>
   <block id="40b851aafab82c78484c46169f816fd2" category="list-text">확인하려면 * 제거 * 를 클릭합니다.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
-  <block id="4940124e8487cb4ea36f1511a195cf66" category="inline-link-macro">Cloud Manager 3.9에 대한 고지 사항</block>
-  <block id="c069fcc68c5dfa73ccc99924c836cae9" category="paragraph"><block ref="c069fcc68c5dfa73ccc99924c836cae9" category="inline-link-macro-rx"></block></block>
-  <block id="d9ce9b41f2053c22760c9212b1f8a063" category="summary">Azure Active Directory 응용 프로그램을 설정한 후 Cloud Manager에서 Azure NetApp Files 작업 환경을 만들어 필요한 볼륨 생성을 시작할 수 있습니다.</block>
   <block id="c5c12e22be965b4ae0e9fc5e1618bdbe" category="doc">Azure NetApp Files 작업 환경을 만듭니다</block>
-  <block id="8952189c40e72880516b5d0e74b846e2" category="paragraph">Azure Active Directory 응용 프로그램을 설정한 후 Cloud Manager에서 Azure NetApp Files 작업 환경을 만들어 필요한 볼륨 생성을 시작할 수 있습니다.</block>
   <block id="71f39774f72466b34fa315e04ab5f4a1" category="list-text">Canvas 페이지에서 * 작업 환경 추가 * 를 클릭합니다.</block>
   <block id="c67d1c774e8a4bdd8581dc693236aa4d" category="list-text">Microsoft Azure * 를 선택한 다음 * Azure NetApp Files * 를 선택합니다.</block>
   <block id="44d9c1472225c5cada2a898e403242e6" category="list-text">이전에 설정한 AD 응용 프로그램에 대한 세부 정보를 제공합니다.</block>
@@ -231,8 +204,6 @@
   <block id="fc59e05409a5663145615b064d40391a" category="paragraph"><block ref="fc59e05409a5663145615b064d40391a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2d8388ef854dfa09cecb11936ccce248" category="inline-link-macro">볼륨 생성 및 관리를 시작합니다</block>
   <block id="7287a568988e3d4791216dba265eeae9" category="paragraph"><block ref="1e09faaddd6af4b1a47324cf37312df0" category="inline-link-macro-rx"></block>.</block>
-  <block id="d29fe95ea2ec23abbb9e421759e64b76" category="summary">Azure NetApp Files는 핵심 비즈니스 애플리케이션을 위한 Microsoft Azure 네이티브 고성능 파일 스토리지 서비스입니다. 이 문서에서는 NetApp Cloud Manager를 사용하여 Azure NetApp Files를 설정하고 관리하는 방법에 대해 설명합니다.</block>
-  <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">NetApp 기술 지원으로 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 Cloud Manager에 추가한 다음 지원을 위해 등록해야 합니다.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원을 위해 등록하십시오</block>
   <block id="d75d347ae1d51e933d39fea688b0abf1" category="sidebar">Azure NetApp Files 문서</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
@@ -246,7 +217,6 @@
   <block id="e2439a8512b353f75391ba9c346bc84d" category="sidebar">볼륨 관리</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 커뮤니티</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
-  <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central 블로그</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="29c251ed5a57bbffe470654ccbbe714c" category="section-title">2021년 4월 11일</block>
   <block id="5651031c9f0714bccf2089b101c736e0" category="list-text"><block ref="5651031c9f0714bccf2089b101c736e0" category="inline-link-rx"></block></block>
@@ -254,23 +224,12 @@
   <block id="1ae0904e8670b3e6cfc9006eb635216b" category="paragraph"><block ref="e311d6cb2bd5a49340f86a76ff0511b7" category="inline-link-rx"></block>.</block>
   <block id="95fa237a7a6265df02b6172c4be387f7" category="section-title">2020년 8월 3일</block>
   <block id="173fd2f937506a4111b0bc09349619a8" category="section-title">2020년 4월 5일</block>
-  <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">NSS 계정을 추가합니다</block>
-  <block id="de2241fea60d98698faaa196ff73ee80" category="paragraph">지원 대시보드를 이용하면 모든 NetApp Support 사이트 계정을 단일 위치에서 추가 및 관리할 수 있습니다.</block>
-  <block id="5be2593b5948f30a15179a32daa73ee2" category="inline-link">1인 등록</block>
-  <block id="14b05cf61f1aba58d38b393e69b69538" category="list-text">아직 NetApp Support 사이트 계정이 없는 경우<block ref="0a8e82436ea73fe635862cfba3acf101" category="inline-link-rx"></block>.</block>
-  <block id="0046efb3377274ff3215d4b30269809e" category="list-text">Cloud Manager 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">NSS 관리 &gt; NSS 계정 추가 * 를 클릭합니다.</block>
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">메시지가 표시되면 * 계속 * 을 클릭하여 Microsoft 로그인 페이지로 리디렉션됩니다.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
-  <block id="f5fb4199485234c409525f430b737010" category="paragraph">이 작업을 수행하면 Cloud Manager에서 NSS 계정을 사용할 수 있습니다.</block>
-  <block id="b4c6a2f33e7b2a38495546b8d5cd8e84" category="paragraph">참고 계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님).</block>
-  <block id="fc65ebd4739f2f8ca46062a8280faea9" category="section-title">계정을 등록하여 지원을 받을 수 있습니다</block>
-  <block id="3e080914efe0d0ca025439fbb68d437f" category="paragraph">지원 등록은 지원 대시보드의 Cloud Manager에서 가능합니다.</block>
-  <block id="fb07bf6b7698dbe934b8b2164d915484" category="list-text">Resources * 탭에서 * Register for Support * 를 클릭합니다.</block>
-  <block id="392fb0270d0d84dbc3fdf8c67da1e5ad" category="list-text">등록할 NSS 자격 증명을 선택한 다음 * 등록 * 을 클릭합니다.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
   <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
@@ -284,25 +243,132 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
-  <block id="51719eefc68685ac0e2a11057a44b8be" category="paragraph">NetApp은 다양한 방법으로 Cloud Manager 및 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">자체 지원</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">이 옵션은 하루 24시간, 주 7일 동안 무료로 사용할 수 있습니다.</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">기술 자료</block>
   <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
-  <block id="76b571fb5edea1c1994fa0ff01f7b1e2" category="paragraph">Cloud Manager 기술 자료를 검색하여 문제를 해결할 수 있는 유용한 문서를 찾습니다.</block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">커뮤니티</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
-  <block id="7f3490343cad8dc3bfdb72dd5d957e8d" category="paragraph">Cloud Manager 커뮤니티에 가입하여 진행 중인 토론을 팔로우하거나 새 토론을 만들어보십시오.</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">문서화</block>
-  <block id="3c313458d6e15dd2c4336e47118d0a8f" category="paragraph">현재 보고 있는 Cloud Manager 문서입니다.</block>
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto:ng-cloudmanager-feedback@netapp.com [피드백 이메일]</block>
-  <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">저희는 귀하의 의견을 소중하게 생각합니다. 클라우드 관리자 개선에 도움이 되는 피드백을 제출해 주십시오.</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp 지원</block>
-  <block id="c91b5a63849b8d2db01014ed33192735" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 엔지니어와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
-  <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">Cloud Manager에서 * 도움말 &gt; 지원 * 을 클릭합니다.</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
-  <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">NetApp 기술 지원을 위한 전화 번호를 찾으려면 * 문의하다</block>
-  <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">문제 열기 * 를 클릭하고 옵션 중 하나를 선택한 다음 * 보내기 * 를 클릭합니다.</block>
-  <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">NetApp 담당자가 귀하의 케이스를 검토하고 곧 다시 귀하에 연락을 드릴 것입니다.</block>
   <block id="0b7a672df763c13d4ee88f17e17d5dd5" category="list-text">다음 권한을 _actions_ 아래에 추가합니다.</block>
+  <block id="6a7ebeee8a870484e91de7ed605595e5" category="section-title">BlueXP의 추가 기능</block>
+  <block id="7d80851a767857c9d6f9bdd94c3d031e" category="list-text">NFS 또는 SMB 데이터를 BlueXP(이전의 Cloud Manager)에서 Azure NetApp Files로 직접 마이그레이션합니다. 데이터 마이그레이션은 NetApp의 Cloud Sync 서비스를 통해 수행할 수 있습니다.</block>
+  <block id="e13891a96dda51dfecfd01addc1b62e1" category="paragraph">가입 및 충전은 BlueXP가 아닌 Azure NetApp Files 서비스를 통해 유지됩니다.</block>
+  <block id="e920cd2b727ccdc464321f1b24b0a1eb" category="inline-link">NetApp BlueXP 웹 사이트: Azure NetApp Files</block>
+  <block id="d2481b597ffa17042188ef5a1d63c33f" category="list-text"><block ref="d2481b597ffa17042188ef5a1d63c33f" category="inline-link-rx"></block></block>
+  <block id="fa52f608cc50f582873e04542e1b242b" category="paragraph">BlueXP에서 * 작업 환경 추가 * &gt; * Microsoft Azure * &gt; * Azure NetApp Files * 를 클릭한 다음 AD 응용 프로그램에 대한 세부 정보를 제공합니다.</block>
+  <block id="13c43cfa248ee9ee48d1991c668474b0" category="summary">이렇게 하면 BlueXP에서 Azure NetApp Files가 제거됩니다. Azure NetApp Files 계정 또는 볼륨은 삭제되지 않습니다. 언제든지 Azure NetApp Files를 BlueXP에 다시 추가할 수 있습니다.</block>
+  <block id="a42000fc4cefeab473a0606b7c2ccf98" category="inline-image-macro">BlueXP 인터페이스에서 볼륨을 제거하기 위해 Azure NetApp Files 제거를 클릭하는 스크린샷.</block>
+  <block id="b4c67aed64d2fb76a8c75220b0aa8a20" category="paragraph"><block ref="b4c67aed64d2fb76a8c75220b0aa8a20" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="891df488cfe13b44b72c19fdd67847d8" category="summary">Azure NetApp Files는 핵심 비즈니스 애플리케이션을 위한 Microsoft Azure 네이티브 고성능 파일 스토리지 서비스입니다. 이 문서에서는 NetApp BlueXP를 사용하여 Azure NetApp Files를 설정하고 관리하는 방법에 대해 설명합니다.</block>
+  <block id="5602b280d4911e770a8becad04f888a4" category="summary">Azure Active Directory 응용 프로그램을 설정한 후 BlueXP에서 Azure NetApp Files 작업 환경을 만들어 필요한 볼륨을 만들 수 있습니다.</block>
+  <block id="c92d7ad082fe107ca889ca7f164af891" category="paragraph">Azure Active Directory 응용 프로그램을 설정한 후 BlueXP에서 Azure NetApp Files 작업 환경을 만들어 필요한 볼륨 생성을 시작할 수 있습니다.</block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">NetApp 기술 지원 팀과 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 BlueXP에 추가한 다음 지원 등록을 해야 합니다.</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">NetApp 기술 지원 팀의 지원 케이스를 생성하기 전에 NetApp Support 사이트(NSS) 계정을 BlueXP에 추가한 다음 지원 등록을 해야 합니다.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 권한을 활성화하려면 두 가지 형태의 등록이 있습니다.</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">BlueXP 계정 ID 지원 가입 등록(BlueXP의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호)</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">이는 BlueXP 내의 모든 서비스에 대한 단일 지원 가입 ID의 역할을 합니다. 각 BlueXP 계정 수준 지원 구독을 등록해야 합니다.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">클라우드 공급자 마켓플레이스의 구독과 연결된 Cloud Volumes ONTAP 일련 번호 등록(20자리 909201xxxxxxxx 일련 번호)</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">이러한 일련 번호는 일반적으로 _PAYGO 일련 번호_라고 하며 Cloud Volumes ONTAP 배포 시 BlueXP에서 생성됩니다.</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">두 가지 유형의 일련 번호를 등록하면 지원 티켓 열기와 자동 케이스 생성 등의 기능을 사용할 수 있습니다.</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">등록 방법은 신규 고객인지, 기존 고객인지 또는 파트너인지에 따라 다릅니다.</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">기존 고객 또는 파트너</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">기존 NetApp 고객 또는 파트너는 NSS(NetApp Support 사이트) SSO 계정을 사용하여 위에서 이러한 등록을 수행할 수 있습니다. 지원 대시보드에서 BlueXP는 NSS 계정을 추가할 수 있는 * NSS 관리 * 페이지를 제공합니다. NSS 계정을 추가하면 BlueXP에서 이러한 일련 번호를 자동으로 등록합니다.</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">NSS 계정을 추가하는 방법에 대해 알아봅니다</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">NetApp이 처음입니다</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">NetApp이 처음인 파트너는 NetApp의 지원 등록 사이트에서 BlueXP 계정 ID 일련 번호를 한 번 등록해야 합니다. 이 등록을 완료하고 새 NSS 계정을 만들면 BlueXP에서 이 계정을 사용하여 앞으로 자동 등록할 수 있습니다.</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">NetApp에 등록하는 방법을 알아보십시오</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">BlueXP에 NSS 계정을 추가합니다</block>
+  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">지원 대시보드를 통해 NetApp Support 사이트 계정을 추가하고 관리하여 Cloud Manager와 함께 사용할 수 있습니다.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">고객 수준 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있습니다.</block>
+  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">이러한 작업을 통해 BlueXP는 NSS 계정을 사용하여 라이선스 다운로드, 소프트웨어 업그레이드 확인 및 향후 지원 등록과 같은 작업을 수행할 수 있습니다.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
+  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님).</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">세 개의 가로 점으로 구성된 아이콘</block>
+  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">로그인에 성공하면 NetApp은 NSS 사용자 이름을 저장합니다. 이 ID는 이메일에 매핑되는 시스템에서 생성된 ID입니다. NSS 관리 * 페이지의 에서 이메일을 표시할 수 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
+  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 에 * 자격 증명 업데이트 * 옵션이 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴. 이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다.</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">NetApp에 등록</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">NetApp 지원에 등록하는 방법은 NetApp Support 사이트(NSS) 계정이 이미 있는지 여부에 따라 다릅니다.</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSS 계정이 있는 기존 고객</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">NSS 계정을 가지고 있는 NetApp 고객은 BlueXP를 통해 지원을 받기 위해 등록하기만 하면 됩니다.</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">아직 추가하지 않은 경우 NSS 계정을 BlueXP에 추가합니다.</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">Resources * 페이지에서 * Register for Support * 를 클릭합니다.</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">계정 일련 번호 및 지원 등록 옵션을 보여 주는 스크린샷</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">기존 고객이지만 NSS 계정은 없습니다</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">기존 사용권 및 제품 번호를 가지고 있지만 _NO_NSS 계정을 가지고 있는 기존 NetApp 고객은 NSS 계정을 만들어야 합니다.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support 사이트 사용자 등록 양식</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">를 완료하여 NetApp Support 사이트 계정을 생성합니다<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">적절한 사용자 레벨(일반적으로 * NetApp 고객/최종 사용자 *)을 선택해야 합니다.</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">위에 사용된 BlueXP 계정 일련 번호(960xxxx)를 일련 번호 필드에 복사해야 합니다. 이렇게 하면 계정 처리 속도가 빨라집니다.</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp이 처음이었습니다</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">NetApp의 새로운 브랜드이고 NSS 계정이 없는 경우 아래의 각 단계를 수행하십시오.</block>
+  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">지원 등록 페이지에서 Cloud Manager 계정 ID 일련 번호를 찾습니다.</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp의 지원 등록 사이트</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">로 이동합니다<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 를 선택하고 * 등록된 NetApp 고객이 아닙니다 * 를 선택합니다.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">필수 필드(빨간색 별표가 있는 필드)를 입력합니다.</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">[제품 라인] * 필드에서 * Cloud Manager * 를 선택한 다음 해당 청구 공급자를 선택합니다.</block>
+  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">위의 2단계에서 Cloud Manager 계정의 일련 번호를 복사하고 보안 검색을 완료한 다음 NetApp의 글로벌 데이터 개인 정보 보호 정책을 읽는지 확인합니다.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">이 보안 트랜잭션을 완료하기 위해 제공된 사서함으로 즉시 이메일이 전송됩니다. 몇 분 내에 확인 이메일이 도착하지 않으면 스팸 폴더를 확인해야 합니다.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">이메일 내에서 작업을 확인합니다.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">확인 시 NetApp에 요청이 제출되고 NetApp Support 사이트 계정을 만들 것을 권장합니다.</block>
+  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">일련 번호 필드에 위에서 사용된 Cloud Manager 계정 일련 번호(960xxxx)를 복사합니다. 이렇게 하면 계정 처리 속도가 빨라집니다.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">이 과정에서 NetApp이 연락을 드릴 것입니다. 신규 사용자를 위한 일회성 온보딩 연습입니다.</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">NetApp Support 사이트 계정이 있으면 BlueXP로 이동하여 나중에 등록하기 위해 이 NSS 계정을 추가할 수 있습니다.</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp은 다양한 방법으로 BlueXP를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp은 다양한 방법으로 BlueXP 및 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">문제를 해결하는 데 도움이 되는 문서를 찾으려면 BlueXP 기술 자료를 검색하십시오.</block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXP 커뮤니티에 가입하여 진행 중인 토론을 팔로우하거나 새 토론을 만드십시오.</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">현재 보고 있는 BlueXP 문서입니다.</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">저희는 귀하의 의견을 소중하게 생각합니다. BlueXP 개선에 도움이 되는 피드백을 제출하십시오.</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 전문가와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">지원 등록 방법을 알아보십시오</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">케이스 생성* 기능을 사용하려면 먼저 BlueXP 계정 ID 일련 번호( 960xxxx) NetApp 포함 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>.</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">BlueXP에서 * 도움말 &gt; 지원 * 을 클릭합니다.</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">전화로 통화하려면 * 전화 * 를 클릭하십시오. 전화를 걸 수 있는 전화 번호가 나열된 netapp.com 페이지로 연결됩니다.</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">케이스 생성 * 을 클릭하여 NetApp 지원 전문가와 함께 티켓을 엽니다.</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp Support 사이트 계정 *: 지원 케이스를 여는 사람과 관련된 해당 NSS 계정을 선택합니다. 이 담당자는 아래에 제공된 추가 이메일 외에 NetApp에 연락할 수 있는 기본 담당자가 됩니다.</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">NSS 계정이 표시되지 않으면 BlueXP의 지원 섹션에서 * NSS 관리 * 탭으로 이동하여 추가할 수 있습니다.</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">* 서비스 *: 문제와 관련된 서비스를 선택합니다. 예를 들어, 서비스 내의 워크플로우 또는 기능과 관련된 기술 지원 문제에 해당하는 BlueXP를 예로 들 수 있습니다.</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">* 작업 환경 *: 스토리지에 적용 가능한 경우 * Cloud Volumes ONTAP * 또는 * On-Premise * 를 선택한 다음 관련 작업 환경을 선택합니다.</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">작업 환경 목록은 서비스의 상단 배너에서 선택한 BlueXP 계정, 작업 영역 및 커넥터의 범위 내에 있습니다.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">* 케이스 우선 순위 *: 케이스의 우선 순위를 선택합니다. 우선 순위는 낮음, 중간, 높음 또는 긴급입니다.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">이러한 우선 순위에 대한 자세한 내용을 보려면 필드 이름 옆에 있는 정보 아이콘 위로 마우스를 가져갑니다.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">* 문제 설명 * : 해당 오류 메시지 또는 수행한 문제 해결 단계를 포함하여 문제에 대한 자세한 설명을 제공합니다.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">* 추가 이메일 주소 *: 다른 사람에게 이 문제를 알고자 할 경우 추가 이메일 주소를 입력하십시오.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">NetApp Support로 케이스를 생성할 수 있는 케이스 생성 양식 스크린샷</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">지원 케이스 번호와 함께 팝업이 나타납니다. NetApp 지원 전문가가 귀사의 사례를 검토하고 곧 다시 연결해 드릴 것입니다.</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">지원 케이스 내역을 보려면 * 설정 &gt; 일정 * 을 클릭하고 "지원 케이스 생성"이라는 이름의 작업을 찾습니다. 오른쪽 끝에 있는 버튼을 사용하여 작업을 확장하여 세부 정보를 볼 수 있습니다.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">케이스를 생성하려고 할 때 다음과 같은 오류 메시지가 나타날 수 있습니다.</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"선택한 서비스에 대해 케이스를 생성할 권한이 없습니다."</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">이 오류는 NSS 계정과 연결된 레코드 회사가 BlueXP 계정 일련 번호( 960xxxx) 또는 작동 환경 일련 번호 케이스 생성 * 양식 상단의 NSS 계정 목록을 확인하여 올바른 일치 항목을 찾거나 다음 옵션 중 하나를 사용하여 지원을 요청할 수 있습니다.</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">제품 내 채팅을 사용합니다</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">에서 비기술 케이스를 제출하십시오<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="890592abc0c43fcc710edb1dbdeaf2b3" category="paragraph">"템플릿"이라는 BlueXP 기능을 사용하면 데이터베이스 또는 스트리밍 서비스와 같은 특정 애플리케이션의 워크로드 요구 사항에 최적화된 볼륨을 생성할 수 있습니다. 조직에서 사용해야 하는 볼륨 템플릿을 만든 경우 를 따릅니다 <block ref="841f2986c591e442944fbc4b9e18c81f" category="inline-xref-macro-rx"></block>.</block>
+  <block id="71fe7750eaf8ad346bfa5f8d17e350aa" category="paragraph">BlueXP는 볼륨을 프로비저닝하고 진행 상황을 볼 수 있도록 페이지를 표시합니다.</block>
+  <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">볼륨을 호스트에 마운트할 수 있도록 BlueXP 내에서 마운트 지침에 액세스합니다.</block>
+  <block id="fdd2d4e114c9279ba4b9834452d83e5e" category="summary">BlueXP는 Azure NetApp Files 설정 및 관리 권한이 필요합니다. Azure Active Directory 응용 프로그램을 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 획득하여 Azure 계정에 필요한 권한을 부여할 수 있습니다.</block>
+  <block id="888f309d00a2cbabb98990f75343ace6" category="paragraph">BlueXP는 Azure NetApp Files 설정 및 관리 권한이 필요합니다. Azure AD(Active Directory) 응용 프로그램을 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 획득하여 Azure 계정에 필요한 권한을 부여할 수 있습니다.</block>
+  <block id="9a4aebca22c886eb8bdac5c93ce53cca" category="paragraph">BlueXP에서 역할 기반 액세스 제어에 사용할 수 있는 Azure AD 응용 프로그램 및 서비스 보안 주체를 만듭니다.</block>
+  <block id="c1433d2b36933dc034014d989542d7e9" category="list-text">* 계정 유형 *: 계정 유형을 선택합니다(모두 BlueXP에서 사용 가능).</block>
+  <block id="b1aa1d55e881ad620ccb7139a00c81e3" category="paragraph">BlueXP에서 Azure NetApp Files 작업 환경을 생성할 때 응용 프로그램의 응용 프로그램(클라이언트) ID와 디렉터리(테넌트) ID를 제공해야 합니다. BlueXP는 ID를 사용하여 프로그래밍 방식으로 로그인합니다.</block>
+  <block id="6a8c94be79eba11a4cff5b050f8725a0" category="list-text">BlueXP에서 응용 프로그램을 사용하여 Azure AD를 인증할 수 있도록 응용 프로그램에 대한 클라이언트 암호를 만듭니다.</block>
+  <block id="c8bbf58eacf91dbdd1fe26d0891f53b2" category="paragraph">이제 AD 응용 프로그램이 설정되고 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사해야 합니다. Azure NetApp Files 작업 환경을 추가할 때 BlueXP에 이 정보를 입력해야 합니다.</block>
+  <block id="c86a116404367cba7aa3de3c0bc355d4" category="paragraph">BlueXP의 서비스 보안 주체는 이제 해당 구독에 필요한 Azure 권한을 가지고 있습니다.</block>
+  <block id="ec8be1aa6f229a1cfbf31d037b056568" category="summary">BlueXP의 Azure NetApp Files 지원에 대한 새로운 기능에 대해 알아보십시오.</block>
+  <block id="dd8cfbf7cdf2a4e727620130a84e82ae" category="paragraph">BlueXP의 Azure NetApp Files의 새로운 기능에 대해 알아보십시오.</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP에 대한 고지 사항</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
 </blocks>

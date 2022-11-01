@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-create-working-env.html 
 keywords: azure netapp files, create working environment, working environment 
-summary: Azure Active Directory 응용 프로그램을 설정한 후 Cloud Manager에서 Azure NetApp Files 작업 환경을 만들어 필요한 볼륨 생성을 시작할 수 있습니다. 
+summary: Azure Active Directory 응용 프로그램을 설정한 후 BlueXP에서 Azure NetApp Files 작업 환경을 만들어 필요한 볼륨을 만들 수 있습니다. 
 ---
 = Azure NetApp Files 작업 환경을 만듭니다
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Azure Active Directory 응용 프로그램을 설정한 후 Cloud Manag
 
 
 [role="lead"]
-Azure Active Directory 응용 프로그램을 설정한 후 Cloud Manager에서 Azure NetApp Files 작업 환경을 만들어 필요한 볼륨 생성을 시작할 수 있습니다.
+Azure Active Directory 응용 프로그램을 설정한 후 BlueXP에서 Azure NetApp Files 작업 환경을 만들어 필요한 볼륨 생성을 시작할 수 있습니다.
 
 .단계
 . Canvas 페이지에서 * 작업 환경 추가 * 를 클릭합니다.

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
-summary: Cloud Manager에서 Azure NetApp Files 지원의 새로운 기능에 대해 알아보십시오. 
+summary: BlueXP의 Azure NetApp Files 지원에 대한 새로운 기능에 대해 알아보십시오. 
 ---
 = 새로운 기능
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Manager에서 Azure NetApp Files 지원의 새로운 기능에 �
 
 
 [role="lead"]
-Azure NetApp Files in Cloud Manager의 새로운 기능에 대해 알아보십시오.
+BlueXP의 Azure NetApp Files의 새로운 기능에 대해 알아보십시오.
 
 
 
