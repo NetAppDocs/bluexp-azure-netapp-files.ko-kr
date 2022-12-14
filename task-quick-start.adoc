@@ -16,12 +16,14 @@ summary: 다음 단계를 따라 빠르게 시작하거나 나머지 섹션으�
 [role="lead"]
 다음 단계를 따라 빠르게 시작하거나 링크를 따라 자세한 내용을 확인하십시오.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] Azure AD 응용 프로그램을 설정합니다
 [role="quick-margin-para"]
 Azure에서 Azure AD 응용 프로그램에 권한을 부여하고 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사합니다.
 
 [role="quick-margin-para"]
 link:task-set-up-azure-ad.html["Azure AD 응용 프로그램을 설정하는 방법에 대해 알아봅니다"].
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] Azure NetApp Files 작업 환경을 만듭니다
 [role="quick-margin-para"]
 BlueXP에서 * 작업 환경 추가 * > * Microsoft Azure * > * Azure NetApp Files * 를 클릭한 다음 AD 응용 프로그램에 대한 세부 정보를 제공합니다.
 

@@ -26,8 +26,10 @@ image:screenshot_anf_details.gif["이름, 응용 프로그램 ID, 클라이언�
 . 추가 * 를 클릭합니다.
 
 
+.결과
 이제 Azure NetApp Files 작업 환경이 마련되었어야 합니다.
 
 image:screenshot_anf_we.gif["Azure NetApp Files 작업 환경의 스크린샷."]
 
+.다음 단계
 link:task-create-volumes.html["볼륨 생성 및 관리를 시작합니다"].
