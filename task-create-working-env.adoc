@@ -14,16 +14,14 @@ summary: Azure Active Directory 응용 프로그램을 설정한 후 BlueXP에�
 
 
 [role="lead"]
-Azure Active Directory 응용 프로그램을 설정한 후 BlueXP에서 Azure NetApp Files 작업 환경을 만들어 필요한 볼륨 생성을 시작할 수 있습니다.
+Azure Active Directory 응용 프로그램을 설정하고 자격 증명을 BlueXP에 추가한 후 필요한 볼륨 생성을 시작할 수 있도록 Azure NetApp Files 작업 환경을 만듭니다.
 
 .단계
 . Canvas 페이지에서 * 작업 환경 추가 * 를 클릭합니다.
-. Microsoft Azure * 를 선택한 다음 * Azure NetApp Files * 를 선택합니다.
-. 이전에 설정한 AD 응용 프로그램에 대한 세부 정보를 제공합니다.
-+
-image:screenshot_anf_details.gif["이름, 응용 프로그램 ID, 클라이언트 암호 및 디렉터리 ID를 포함하는 Azure NetApp Files 작업 환경을 만드는 데 필요한 필드의 스크린샷"]
-
-. 추가 * 를 클릭합니다.
+. Microsoft Azure * 를 선택합니다.
+. Azure NetApp Files 옆에 있는 * Discover * 를 선택합니다.
+. 세부 정보 페이지에서 작업 환경 이름을 입력하고 이전에 설정한 자격 증명을 선택합니다.
+. 계속 * 을 클릭합니다.
 
 
 .결과
