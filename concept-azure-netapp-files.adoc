@@ -29,7 +29,7 @@ Azure NetApp Files을 사용하는 기업은 클라우드를 리팩토링할 필
 
 == BlueXP의 추가 기능
 
-* NFS 또는 SMB 데이터를 BlueXP(이전의 Cloud Manager)에서 Azure NetApp Files로 직접 마이그레이션합니다. 데이터 마이그레이션은 NetApp의 Cloud Sync 서비스를 통해 수행할 수 있습니다.
+* NFS 또는 SMB 데이터를 BlueXP에서 Azure NetApp Files로 직접 마이그레이션합니다. 데이터 마이그레이션은 NetApp의 Cloud Sync 서비스를 통해 수행할 수 있습니다.
 +
 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["Cloud Sync에 대해 자세히 알아보십시오"^]
 
