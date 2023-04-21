@@ -70,4 +70,4 @@ Cloud Manager에서 직접 Azure NetApp Files을 생성 및 관리할 수 있는
 
 === Azure NetApp Files로 데이터 마이그레이션
 
-이제 NFS 또는 SMB 데이터를 Cloud Manager에서 Azure NetApp Files로 직접 마이그레이션할 수 있습니다. 데이터 동기화는 NetApp의 Cloud Sync 서비스에서 제공합니다.
+이제 NFS 또는 SMB 데이터를 Cloud Manager에서 Azure NetApp Files로 직접 마이그레이션할 수 있습니다. 데이터 동기화는 BlueXP 복사 및 동기화를 통해 이루어집니다.

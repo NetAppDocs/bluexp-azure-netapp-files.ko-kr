@@ -102,7 +102,6 @@
   <block id="5054d68a0b2f03dece3eb72cfaa09427" category="list-text">크기를 변경하고 태그를 관리하여 볼륨을 편집합니다.</block>
   <block id="396a3c9fb559d38e68f68ea139b3539a" category="paragraph">Cloud Manager에서 직접 Azure NetApp Files을 생성 및 관리할 수 있는 기능은 이전의 데이터 마이그레이션 기능을 대체합니다.</block>
   <block id="02a58c551f186d8f833147198d69fb26" category="section-title">Azure NetApp Files로 데이터 마이그레이션</block>
-  <block id="8d30064c294030bc7a1446fe0cf94ca9" category="paragraph">이제 NFS 또는 SMB 데이터를 Cloud Manager에서 Azure NetApp Files로 직접 마이그레이션할 수 있습니다. 데이터 동기화는 NetApp의 Cloud Sync 서비스에서 제공합니다.</block>
   <block id="af08318aa95b670c097bf944ab12d208" category="summary">작업 환경을 설정한 후 Azure NetApp Files 계정, 용량 풀 및 볼륨을 생성할 수 있습니다.</block>
   <block id="ba0aa3e7264cbd8d5a1204a3f3d868cc" category="doc">Azure NetApp Files용 볼륨 생성 및 마운트</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">볼륨 생성</block>
@@ -167,11 +166,6 @@
   <block id="b4afab774d5aae036a66f2e95c63406b" category="list-text">다중 프로토콜을 지원하므로 Linux 및 Windows 애플리케이션 모두의 "리프트 및 이동"이 Azure에서 원활하게 실행됩니다.</block>
   <block id="86431e70f2e01436434235b95f27507f" category="list-text">여러 성능 계층을 통해 워크로드 성능 요구사항에 맞춰 조정할 수 있습니다.</block>
   <block id="0f5101975c831a1a6350155e818d4cbf" category="list-text">SAP HANA, GDPR 및 HIPAA를 비롯한 주요 인증을 통해 가장 까다로운 워크로드를 Azure로 마이그레이션할 수 있습니다.</block>
-  <block id="c9e8b2e7aec1baa65efcbe84dfc9d0ed" category="inline-link">Cloud Sync에 대해 자세히 알아보십시오</block>
-  <block id="707476b7ceb8bcfdb9c13e59859ae97a" category="paragraph"><block ref="707476b7ceb8bcfdb9c13e59859ae97a" category="inline-link-rx"></block></block>
-  <block id="25c46bef01bcfa77e5905b1d3308762a" category="list-text">클라우드 데이터 센스는 인공 지능(AI) 중심 기술을 사용하여 데이터 컨텍스트를 이해하고 Azure NetApp Files 계정에 상주하는 중요한 데이터를 식별할 수 있도록 도와줍니다.</block>
-  <block id="a11b0fe7d09898eeb7b50552e83ef426" category="inline-link">클라우드 데이터 센스에 대해 자세히 알아보십시오</block>
-  <block id="3af0f3d8f43764595483a67930d47716" category="paragraph"><block ref="3af0f3d8f43764595483a67930d47716" category="inline-link-rx"></block></block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
   <block id="b8371ae9d98b29b8335a4aea09cdaff3" category="inline-link">Azure NetApp Files 가격 보기</block>
   <block id="4b3f21f8a5b6bf8c27f851053be34ac4" category="paragraph"><block ref="4b3f21f8a5b6bf8c27f851053be34ac4" category="inline-link-rx"></block></block>
@@ -183,8 +177,6 @@
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="section-title">관련 링크</block>
   <block id="6c32a3d0f1a665987b98dde5a0f96d7d" category="inline-link">Azure NetApp Files 설명서</block>
   <block id="844f85f22af5197ff73f93313cd94cd1" category="list-text"><block ref="844f85f22af5197ff73f93313cd94cd1" category="inline-link-rx"></block></block>
-  <block id="815e6b3583bbc9969fd306b9391ed0cb" category="inline-link">Cloud Sync 설명서</block>
-  <block id="e66ce730725b027d172b1b3ee7612614" category="list-text"><block ref="e66ce730725b027d172b1b3ee7612614" category="inline-link-rx"></block></block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link-macro"></block>
   <block id="a5cd00357f60ad0eaa681bb68df15c6d" category="doc">Azure NetApp Files를 제거합니다</block>
@@ -438,5 +430,13 @@
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">첨부 파일은 파일당 25MB로 제한됩니다. txt, log, pdf, jpg/jpeg, rtf, DOC/docx, xls/xlsx 및 CSV.</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 케이스 메모 업데이트 *: 문제에 대한 추가 세부 정보를 제공하거나 * 파일 업로드 * 를 선택하여 최대 5개의 파일을 첨부할 수 있습니다.</block>
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
-  <block id="6ecf0fff968ff9d17f1f524f90c9a9fe" category="list-text">NFS 또는 SMB 데이터를 BlueXP에서 Azure NetApp Files로 직접 마이그레이션합니다. 데이터 마이그레이션은 NetApp의 Cloud Sync 서비스를 통해 수행할 수 있습니다.</block>
+  <block id="5ae0183e058629fb85c6246d99460224" category="list-text">NFS 또는 SMB 데이터를 BlueXP에서 Azure NetApp Files로 직접 마이그레이션합니다. BlueXP 복사 및 동기화를 통해 데이터 마이그레이션을 수행할 수 있습니다.</block>
+  <block id="29a7b2441d86b88dc7b6b010d54ea1ea" category="inline-link">BlueXP 복사 및 동기화에 대해 자세히 알아보십시오</block>
+  <block id="b21bc087b016de9c9d4df482b82dd508" category="paragraph"><block ref="b21bc087b016de9c9d4df482b82dd508" category="inline-link-rx"></block></block>
+  <block id="08db1d63700c3fa1c62acd4830447cc5" category="list-text">AI(인공 지능) 기반 기술을 사용하는 BlueXP 분류는 데이터 컨텍스트를 이해하고 Azure NetApp Files 계정에 있는 중요한 데이터를 식별하는 데 도움이 됩니다.</block>
+  <block id="726d1cad4d0527532460d1a853919ebc" category="inline-link">BlueXP 분류에 대해 자세히 알아보십시오</block>
+  <block id="a77bc623afdc17e8c5a78facbb8e1c59" category="paragraph"><block ref="a77bc623afdc17e8c5a78facbb8e1c59" category="inline-link-rx"></block></block>
+  <block id="db75f0488f4e9bbad86a02da9a572896" category="inline-link">BlueXP 복사 및 동기화 문서</block>
+  <block id="fb74755ec9e51eecce1be084a0ce803a" category="list-text"><block ref="fb74755ec9e51eecce1be084a0ce803a" category="inline-link-rx"></block></block>
+  <block id="cc4556ad288d7fd7e7c9f944615b36c2" category="paragraph">이제 NFS 또는 SMB 데이터를 Cloud Manager에서 Azure NetApp Files로 직접 마이그레이션할 수 있습니다. 데이터 동기화는 BlueXP 복사 및 동기화를 통해 이루어집니다.</block>
 </blocks>
