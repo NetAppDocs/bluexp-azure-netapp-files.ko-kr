@@ -31,11 +31,11 @@ Azure NetApp Files을 사용하는 기업은 클라우드를 리팩토링할 필
 
 * NFS 또는 SMB 데이터를 BlueXP에서 Azure NetApp Files로 직접 마이그레이션합니다. BlueXP 복사 및 동기화를 통해 데이터 마이그레이션을 수행할 수 있습니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["BlueXP 복사 및 동기화에 대해 자세히 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["BlueXP 복사 및 동기화에 대해 자세히 알아보십시오"^]
 
 * AI(인공 지능) 기반 기술을 사용하는 BlueXP 분류는 데이터 컨텍스트를 이해하고 Azure NetApp Files 계정에 있는 중요한 데이터를 식별하는 데 도움이 됩니다.
 +
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["BlueXP 분류에 대해 자세히 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 분류에 대해 자세히 알아보십시오"^]
 
 
 
@@ -65,5 +65,5 @@ Azure NetApp Files와 관련된 기술 지원 문제의 경우 Azure 포털을 �
 
 * https://cloud.netapp.com/azure-netapp-files["NetApp BlueXP 웹 사이트: Azure NetApp Files"^]
 * https://docs.microsoft.com/azure/azure-netapp-files/["Azure NetApp Files 설명서"^]
-* https://docs.netapp.com/us-en/cloud-manager-sync/index.html["BlueXP 복사 및 동기화 문서"^]
+* https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["BlueXP 복사 및 동기화 문서"^]
 
