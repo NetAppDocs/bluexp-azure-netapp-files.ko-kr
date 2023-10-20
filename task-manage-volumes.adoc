@@ -4,7 +4,7 @@ permalink: task-manage-volumes.html
 keywords: azure netapp files, delete volumes, delete nfs volumes, netapp account, capacity pool, change service level 
 summary: 작업 환경을 설정한 후에는 Azure NetApp Files 계정, 용량 풀, 볼륨 및 스냅샷을 관리할 수 있습니다. 
 ---
-= Azure NetApp Files용 볼륨 관리
+= 기존 볼륨 관리
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

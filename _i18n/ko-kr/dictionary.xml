@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="2433628c53fed80ea9d352a1bcd9ce45" category="summary">다음 단계를 따라 빠르게 시작하거나 나머지 섹션으로 스크롤하여 자세한 내용을 확인하십시오.</block>
-  <block id="5bfad4d83a647919018a0bb53b602ce1" category="doc">Azure NetApp Files를 빠르게 시작합니다</block>
-  <block id="597907fb22ffd6d5d99abe19205161d6" category="paragraph">다음 단계를 따라 빠르게 시작하거나 링크를 따라 자세한 내용을 확인하십시오.</block>
   <block id="5ef8b3581bd08eb7bd7df9da47cee4d9" category="paragraph">Azure에서 Azure AD 응용 프로그램에 권한을 부여하고 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사합니다.</block>
-  <block id="4a6368bcf7e7a78b87f63c25a1738dcd" category="inline-link-macro">Azure AD 응용 프로그램을 설정하는 방법에 대해 알아봅니다</block>
-  <block id="907e63fbdb2ca8abc79587ef5c9c9829" category="paragraph"><block ref="44b9747affc4b1ae04a7846ac71363e4" category="inline-link-macro-rx"></block>.</block>
-  <block id="328958ba41a282fb8b8b971eb10845bd" category="inline-link-macro">작업 환경을 만드는 방법에 대해 알아봅니다</block>
-  <block id="75aec57e5da1cc40dc30b7d1be476ab4" category="paragraph"><block ref="87d286565b204dd2a8d4bf83463a6fe9" category="inline-link-macro-rx"></block>.</block>
   <block id="9f6195430155a4712fbd4733de1876ca" category="doc">Azure AD 응용 프로그램을 설정합니다</block>
-  <block id="250e9326aa08333e3f698ab1ba29c77e" category="section-title">AD 응용 프로그램을 만듭니다</block>
   <block id="9e0b4c608c2ed027fef07ddc68aae407" category="inline-link">Microsoft Azure 문서: 필요한 권한</block>
   <block id="f628a927678590abbad75664aa87e9c9" category="paragraph">Active Directory 응용 프로그램을 만들고 응용 프로그램을 역할에 할당하려면 Azure에 적절한 권한이 있어야 합니다. 자세한 내용은 을 참조하십시오<block ref="f85f976c363ea77b8f2232a1ebbc4d2d" category="inline-link-rx"></block>.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
@@ -32,7 +24,6 @@
   <block id="a91d60261e2974b6b9f5d3d3d0abacdd" category="list-text">클라이언트 암호 값을 복사합니다.</block>
   <block id="5a3a4c596a95b6a9851a1c7b6539b0ea" category="inline-image-macro">Azure AD 서비스 보안 주체에 대한 클라이언트 암호를 보여 주는 Azure 포털의 스크린샷</block>
   <block id="950ba75831d4d2d13e40a65143eb8494" category="paragraph"><block ref="950ba75831d4d2d13e40a65143eb8494" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="50cb14609454c06c47e95e9d8a56adb5" category="section-title">앱을 역할에 할당합니다</block>
   <block id="4c52768b52ca020200e5a926929d951d" category="paragraph">서비스 보안 주체를 Azure 구독에 바인딩하고 필요한 권한이 있는 사용자 지정 역할을 할당해야 합니다.</block>
   <block id="c7fd7910cc533c79ed570ea74704425d" category="inline-link">Azure에서 사용자 지정 역할을 만듭니다</block>
   <block id="ef25c1a0b85945d65e29d5346a5dd23f" category="list-text"><block ref="e0180ab247b74a9d02ca0dcc4d9ef2d3" category="inline-link-rx"></block>.</block>
@@ -62,7 +53,6 @@
   <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">다음 * 을 클릭합니다.</block>
   <block id="e3bbb08034982e47da96f9df0529c14b" category="list-text">검토 + 할당 * 을 클릭합니다.</block>
   <block id="00cac13dd28e1d8ca100e2d8ab02878c" category="summary">작업 환경을 설정한 후에는 Azure NetApp Files 계정, 용량 풀, 볼륨 및 스냅샷을 관리할 수 있습니다.</block>
-  <block id="a420aa39e55724ac60bb395b9bf12764" category="doc">Azure NetApp Files용 볼륨 관리</block>
   <block id="a2669b974873fd7c51079b5fcd7d7946" category="paragraph">스토리지 요구사항의 변화에 따라 기존 볼륨을 관리할 수 있습니다. 볼륨을 편집하고, 볼륨의 서비스 수준을 변경하고, 스냅샷 복사본을 관리하고, 볼륨을 삭제할 수 있습니다.</block>
   <block id="8cbb6213062bff0f8ae5d9232049a4ae" category="paragraph">볼륨을 생성한 후에는 언제든지 크기와 태그를 수정할 수 있습니다.</block>
   <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">작업 환경을 엽니다.</block>
@@ -102,7 +92,6 @@
   <block id="396a3c9fb559d38e68f68ea139b3539a" category="paragraph">Cloud Manager에서 직접 Azure NetApp Files을 생성 및 관리할 수 있는 기능은 이전의 데이터 마이그레이션 기능을 대체합니다.</block>
   <block id="02a58c551f186d8f833147198d69fb26" category="section-title">Azure NetApp Files로 데이터 마이그레이션</block>
   <block id="af08318aa95b670c097bf944ab12d208" category="summary">작업 환경을 설정한 후 Azure NetApp Files 계정, 용량 풀 및 볼륨을 생성할 수 있습니다.</block>
-  <block id="ba0aa3e7264cbd8d5a1204a3f3d868cc" category="doc">Azure NetApp Files용 볼륨 생성 및 마운트</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">볼륨 생성</block>
   <block id="15b71829402124199d38fc483f8a71b5" category="paragraph">새 Azure NetApp Files 계정 또는 기존 계정에 NFS 또는 SMB 볼륨을 생성할 수 있습니다.</block>
   <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">수행할 수 있습니다</block>
@@ -228,7 +217,6 @@
   <block id="e13891a96dda51dfecfd01addc1b62e1" category="paragraph">가입 및 충전은 BlueXP가 아닌 Azure NetApp Files 서비스를 통해 유지됩니다.</block>
   <block id="e920cd2b727ccdc464321f1b24b0a1eb" category="inline-link">NetApp BlueXP 웹 사이트: Azure NetApp Files</block>
   <block id="d2481b597ffa17042188ef5a1d63c33f" category="list-text"><block ref="d2481b597ffa17042188ef5a1d63c33f" category="inline-link-rx"></block></block>
-  <block id="fa52f608cc50f582873e04542e1b242b" category="paragraph">BlueXP에서 * 작업 환경 추가 * &gt; * Microsoft Azure * &gt; * Azure NetApp Files * 를 클릭한 다음 AD 응용 프로그램에 대한 세부 정보를 제공합니다.</block>
   <block id="13c43cfa248ee9ee48d1991c668474b0" category="summary">이렇게 하면 BlueXP에서 Azure NetApp Files가 제거됩니다. Azure NetApp Files 계정 또는 볼륨은 삭제되지 않습니다. 언제든지 Azure NetApp Files를 BlueXP에 다시 추가할 수 있습니다.</block>
   <block id="a42000fc4cefeab473a0606b7c2ccf98" category="inline-image-macro">BlueXP 인터페이스에서 볼륨을 제거하기 위해 Azure NetApp Files 제거를 클릭하는 스크린샷.</block>
   <block id="b4c67aed64d2fb76a8c75220b0aa8a20" category="paragraph"><block ref="b4c67aed64d2fb76a8c75220b0aa8a20" category="inline-image-macro-rx" type="image"></block></block>
@@ -304,9 +292,7 @@
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">시작하기 전에</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">작업을 마친 후</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
-  <block id="467ae1621770a63d57b4f6f548f0e4db" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> Azure AD 응용 프로그램을 설정합니다</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
-  <block id="23264ef18907414c2a02af5eb5d5b56a" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> Azure NetApp Files 작업 환경을 만듭니다</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">지원 등록 페이지에서 계정 ID 일련 번호를 찾습니다.</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">위의 2단계에서 계정의 일련 번호를 복사하고 보안 검색을 완료한 다음 NetApp의 글로벌 데이터 개인 정보 보호 정책을 읽는지 확인합니다.</block>
@@ -314,7 +300,6 @@
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">ONTAP용 Amazon FSx</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Google Cloud용 Cloud Volumes Service</block>
-  <block id="6186e185b0ea9b1c5909f6190ea935aa" category="section-title">BlueXP에 자격 증명을 추가합니다</block>
   <block id="6da49039903bd37fcbedcd3b748acd84" category="paragraph">Azure NetApp Files 작업 환경을 만들면 서비스 보안 주체와 연결된 자격 증명을 선택하라는 메시지가 표시됩니다. 작업 환경을 만들기 전에 이러한 자격 증명을 BlueXP에 추가해야 합니다.</block>
   <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.</block>
   <block id="be9d7b7687f0c55f7e65f14cd2b0f530" category="inline-image-macro">BlueXP 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷.</block>
@@ -446,4 +431,13 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자의 파일 서비스에 대한 지원을 받습니다</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스에 관한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.</block>
+  <block id="0e9444646fd7a9680fc38b22818537e3" category="section-title">1단계: AD 응용 프로그램을 만듭니다</block>
+  <block id="fb9a62d97d21e431e752501f84624d12" category="section-title">2단계: 응용 프로그램을 역할에 할당합니다</block>
+  <block id="8aa26a83223c9e21349efd7c3717ce88" category="section-title">3단계: BlueXP에 자격 증명을 추가합니다</block>
+  <block id="a411739869aa60f9730ad4b362f8561a" category="summary">Azure Active Directory 애플리케이션을 설정하고 작업 환경을 만들어 Azure NetApp Files를 시작하십시오.</block>
+  <block id="65ce4dce26160be29539699c6623e379" category="doc">워크플로를 시작합니다</block>
+  <block id="916f4838efcb3a299051cc70e41f521e" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="ed69a3c57e90df42781856a93d94fa32" category="inline-link-macro-rx"></block></block>
+  <block id="f952808a17fec1373e3f634132b93787" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="b5471f633d6bbd5984c5b9bab2234762" category="inline-link-macro-rx"></block></block>
+  <block id="b8d5d2846f8945e381075b2ce9a76df4" category="paragraph">BlueXP에서 * 작업 환경 추가 * &gt; * Microsoft Azure * &gt; * Azure NetApp Files * 를 클릭한 다음 AD 애플리케이션에 대한 세부 정보를 제공하십시오.</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
 </blocks>

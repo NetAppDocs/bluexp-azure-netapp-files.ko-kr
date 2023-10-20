@@ -14,12 +14,14 @@ sidebar:
   - title: Azure NetApp Files 문서
     url: "/index.html"
   - title: 릴리스 정보
-    url: "/whats-new.html"
+    entries:
+    - title: 새로운 소식
+      url: "/whats-new.html"
   - title: 시작하십시오
     entries:
     - title: Azure NetApp Files에 대해 자세히 알아보십시오
       url: "/concept-azure-netapp-files.html"
-    - title: 빠른 시작
+    - title: 워크플로를 시작합니다
       url: "/task-quick-start.html"
     - title: Azure AD 응용 프로그램을 설정합니다
       url: "/task-set-up-azure-ad.html"

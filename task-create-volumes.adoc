@@ -4,7 +4,7 @@ permalink: task-create-volumes.html
 keywords: azure netapp files, create volumes, create nfs volumes, netapp account, capacity pool, create capacity pool, mount path, get mount path, find mount path, mount volume 
 summary: 작업 환경을 설정한 후 Azure NetApp Files 계정, 용량 풀 및 볼륨을 생성할 수 있습니다. 
 ---
-= Azure NetApp Files용 볼륨 생성 및 마운트
+= 볼륨을 생성 및 마운트합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
