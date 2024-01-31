@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+    
+    
+  
+
+  
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/ko-kr/bluexp-azure-netapp-files/concept-azure-netapp-files.html</loc>
+        
+      
+      <lastmod>2023-05-31T14:55:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/ko-kr/bluexp-azure-netapp-files/</loc>
+        
+      
+      <lastmod>2023-11-15T17:37:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/ko-kr/bluexp-azure-netapp-files/legal-notices.html</loc>
+        
+      
+      <lastmod>2023-08-09T13:30:09+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/ko-kr/bluexp-azure-netapp-files//search.html</loc>
+        
+      
+      <lastmod>2024-01-31T17:53:34+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/ko-kr/bluexp-azure-netapp-files/task-create-volumes.html</loc>
+        
+      
+      <lastmod>2023-10-20T18:41:35+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/ko-kr/bluexp-azure-netapp-files/task-create-working-env.html</loc>
+        
+      
+      <lastmod>2024-01-31T17:53:18+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/ko-kr/bluexp-azure-netapp-files/task-get-help.html</loc>
+        
+      
+      <lastmod>2024-01-31T17:53:18+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/ko-kr/bluexp-azure-netapp-files/task-manage-volumes.html</loc>
+        
+      
+      <lastmod>2023-10-20T18:41:35+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/ko-kr/bluexp-azure-netapp-files/task-quick-start.html</loc>
+        
+      
+      <lastmod>2024-01-31T17:53:18+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/ko-kr/bluexp-azure-netapp-files/task-remove-working-env.html</loc>
+        
+      
+      <lastmod>2022-11-01T14:42:09+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/ko-kr/bluexp-azure-netapp-files/task-set-up-azure-ad.html</loc>
+        
+      
+      <lastmod>2024-01-31T17:53:18+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/ko-kr/bluexp-azure-netapp-files/task-support-registration.html</loc>
+        
+      
+      <lastmod>2023-10-03T18:36:46+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/ko-kr/bluexp-azure-netapp-files/whats-new.html</loc>
+        
+      
+      <lastmod>2023-05-31T14:55:02+00:00</lastmod>
+      
+    </url>
+  
+
+  
+  
+</urlset>
