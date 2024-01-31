@@ -23,7 +23,7 @@ sidebar:
       url: "/concept-azure-netapp-files.html"
     - title: 워크플로를 시작합니다
       url: "/task-quick-start.html"
-    - title: Azure AD 응용 프로그램을 설정합니다
+    - title: Microsoft Entra 응용 프로그램을 설정합니다
       url: "/task-set-up-azure-ad.html"
     - title: 작업 환경을 만듭니다
       url: "/task-create-working-env.html"
@@ -43,28 +43,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 법적 고지
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 시작하십시오
-    links:
-    - title: Azure NetApp Files에 대해 자세히 알아보십시오
-      url: concept-azure-netapp-files.html
-    - title: 빠른 시작
-      url: task-quick-start.html
-  - title: Azure NetApp Files를 사용합니다
-    links:
-    - title: 볼륨 생성
-      url: task-create-volumes.html
-    - title: 볼륨 관리
-      url: task-manage-volumes.html
-  - title: 블로그 커뮤니티
-    links:
-    - title: NetApp 커뮤니티
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: BlueXP 블로그
-      url: https://cloud.netapp.com/blog
-    - title: 클라우드 웨비나
-      url: https://cloud.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family

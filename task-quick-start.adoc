@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-quick-start.html 
 keywords: set up azure netapp files, quick start 
-summary: Azure Active Directory 애플리케이션을 설정하고 작업 환경을 만들어 Azure NetApp Files를 시작하십시오. 
+summary: Microsoft Entra 응용 프로그램을 설정하고 작업 환경을 만들어 Azure NetApp Files를 시작하십시오. 
 ---
 = 워크플로를 시작합니다
 :hardbreaks:
@@ -14,11 +14,11 @@ summary: Azure Active Directory 애플리케이션을 설정하고 작업 환경
 
 
 [role="lead"]
-Azure Active Directory 애플리케이션을 설정하고 작업 환경을 만들어 Azure NetApp Files를 시작하십시오.
+Microsoft Entra 응용 프로그램을 설정하고 작업 환경을 만들어 Azure NetApp Files를 시작하십시오.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] link:task-set-up-azure-ad.html["Azure AD 응용 프로그램을 설정합니다"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] link:task-set-up-azure-ad.html["Microsoft Entra 응용 프로그램을 설정합니다"]
 [role="quick-margin-para"]
-Azure에서 Azure AD 응용 프로그램에 권한을 부여하고 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사합니다.
+Azure에서 Microsoft Entra 응용 프로그램에 권한을 부여하고 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] link:task-create-working-env.html["Azure NetApp Files 작업 환경을 만듭니다"]
 [role="quick-margin-para"]

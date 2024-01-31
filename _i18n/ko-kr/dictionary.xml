@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="5ef8b3581bd08eb7bd7df9da47cee4d9" category="paragraph">Azure에서 Azure AD 응용 프로그램에 권한을 부여하고 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사합니다.</block>
-  <block id="9f6195430155a4712fbd4733de1876ca" category="doc">Azure AD 응용 프로그램을 설정합니다</block>
   <block id="9e0b4c608c2ed027fef07ddc68aae407" category="inline-link">Microsoft Azure 문서: 필요한 권한</block>
   <block id="f628a927678590abbad75664aa87e9c9" category="paragraph">Active Directory 응용 프로그램을 만들고 응용 프로그램을 역할에 할당하려면 Azure에 적절한 권한이 있어야 합니다. 자세한 내용은 을 참조하십시오<block ref="f85f976c363ea77b8f2232a1ebbc4d2d" category="inline-link-rx"></block>.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
-  <block id="c9bae6707a626ab71ed3b97345b5becf" category="list-text">Azure 포털에서 * Azure Active Directory * 서비스를 엽니다.</block>
   <block id="abcaecfb112ec16a9054b876f99d7cf4" category="inline-image-macro">Microsoft Azure의 Active Directory 서비스를 보여 주는 스크린샷</block>
-  <block id="68c3725b0e9e056e03b80e909714f158" category="paragraph"><block ref="68c3725b0e9e056e03b80e909714f158" category="inline-image-macro-rx" type="image"></block></block>
   <block id="af88b24a1b0f5294f806d8d9f2744f27" category="list-text">메뉴에서 * 앱 등록 * 을 클릭합니다.</block>
   <block id="cce8aa4eda34a5338284d12bd518d218" category="list-text">응용 프로그램을 만듭니다.</block>
   <block id="0e1ac21d4b9ed97a0c89007cafe6b733" category="list-text">새 등록 * 을 클릭합니다.</block>
@@ -16,14 +12,10 @@
   <block id="135a1682a5c17ecdf84e57a4dc0c0959" category="list-text">* URI 리디렉션 *: 이 필드는 비워 둘 수 있습니다.</block>
   <block id="9909e23ede42f2318acada35ac10bd3e" category="list-text">Register * 를 클릭합니다.</block>
   <block id="e762ce4f71e8abc9d8deee4d4b7277fe" category="list-text">응용 프로그램(클라이언트) ID * 와 * 디렉터리(테넌트) ID * 를 복사합니다.</block>
-  <block id="8fd7e29954792b2ee199fcf4fb0e7dec" category="inline-image-macro">Azure Active Directory의 응용 프로그램에 대한 응용 프로그램(클라이언트) ID 및 디렉터리(테넌트) ID를 보여 주는 스크린샷</block>
-  <block id="5ad288ed66148804e3cf03d2bc5454e7" category="paragraph"><block ref="5ad288ed66148804e3cf03d2bc5454e7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="814ab761b05ac26a224a99eac97f2f4d" category="list-text">인증서 및 비밀 &gt; 새 클라이언트 비밀 * 을 클릭합니다.</block>
   <block id="56c696c4118c8dc3d2947c159fdbbb7c" category="list-text">비밀과 기간에 대한 설명을 제공하십시오.</block>
   <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">추가 * 를 클릭합니다.</block>
   <block id="a91d60261e2974b6b9f5d3d3d0abacdd" category="list-text">클라이언트 암호 값을 복사합니다.</block>
-  <block id="5a3a4c596a95b6a9851a1c7b6539b0ea" category="inline-image-macro">Azure AD 서비스 보안 주체에 대한 클라이언트 암호를 보여 주는 Azure 포털의 스크린샷</block>
-  <block id="950ba75831d4d2d13e40a65143eb8494" category="paragraph"><block ref="950ba75831d4d2d13e40a65143eb8494" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4c52768b52ca020200e5a926929d951d" category="paragraph">서비스 보안 주체를 Azure 구독에 바인딩하고 필요한 권한이 있는 사용자 지정 역할을 할당해야 합니다.</block>
   <block id="c7fd7910cc533c79ed570ea74704425d" category="inline-link">Azure에서 사용자 지정 역할을 만듭니다</block>
   <block id="ef25c1a0b85945d65e29d5346a5dd23f" category="list-text"><block ref="e0180ab247b74a9d02ca0dcc4d9ef2d3" category="inline-link-rx"></block>.</block>
@@ -180,16 +172,11 @@
   <block id="d75d347ae1d51e933d39fea688b0abf1" category="sidebar">Azure NetApp Files 문서</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
-  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">빠른 시작</block>
   <block id="edbcf53081d21cc9d84e0c1b1c31c425" category="sidebar">작업 환경을 만듭니다</block>
   <block id="6ade0d3f74b8a5014c9cb307d47a0cb4" category="sidebar">Azure NetApp Files를 사용합니다</block>
   <block id="9be5a2eae9bab39aee7d0161c137cd43" category="sidebar">볼륨을 생성 및 마운트합니다</block>
   <block id="9038e7cfcfe9bb9df9afd31371070be8" category="sidebar">기존 볼륨 관리</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
-  <block id="e2439a8512b353f75391ba9c346bc84d" category="sidebar">볼륨 관리</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 커뮤니티</block>
-  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="29c251ed5a57bbffe470654ccbbe714c" category="section-title">2021년 4월 11일</block>
   <block id="dbbd746e2d2c019dcb0c3c40b74f4f75" category="section-title">2021년 3월 8일</block>
   <block id="95fa237a7a6265df02b6172c4be387f7" category="section-title">2020년 8월 3일</block>
@@ -211,7 +198,6 @@
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">커뮤니티</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">문서화</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto:ng-cloudmanager-feedback@netapp.com [피드백 이메일]</block>
   <block id="0b7a672df763c13d4ee88f17e17d5dd5" category="list-text">다음 권한을 _actions_ 아래에 추가합니다.</block>
   <block id="6a7ebeee8a870484e91de7ed605595e5" category="section-title">BlueXP의 추가 기능</block>
   <block id="e13891a96dda51dfecfd01addc1b62e1" category="paragraph">가입 및 충전은 BlueXP가 아닌 Azure NetApp Files 서비스를 통해 유지됩니다.</block>
@@ -221,7 +207,6 @@
   <block id="a42000fc4cefeab473a0606b7c2ccf98" category="inline-image-macro">BlueXP 인터페이스에서 볼륨을 제거하기 위해 Azure NetApp Files 제거를 클릭하는 스크린샷.</block>
   <block id="b4c67aed64d2fb76a8c75220b0aa8a20" category="paragraph"><block ref="b4c67aed64d2fb76a8c75220b0aa8a20" category="inline-image-macro-rx" type="image"></block></block>
   <block id="891df488cfe13b44b72c19fdd67847d8" category="summary">Azure NetApp Files는 핵심 비즈니스 애플리케이션을 위한 Microsoft Azure 네이티브 고성능 파일 스토리지 서비스입니다. 이 문서에서는 NetApp BlueXP를 사용하여 Azure NetApp Files를 설정하고 관리하는 방법에 대해 설명합니다.</block>
-  <block id="5602b280d4911e770a8becad04f888a4" category="summary">Azure Active Directory 응용 프로그램을 설정한 후 BlueXP에서 Azure NetApp Files 작업 환경을 만들어 필요한 볼륨을 만들 수 있습니다.</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">NetApp 기술 지원 팀과 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 BlueXP에 추가한 다음 지원 등록을 해야 합니다.</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 권한을 활성화하려면 두 가지 형태의 등록이 있습니다.</block>
@@ -255,7 +240,6 @@
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">문제를 해결하는 데 도움이 되는 문서를 찾으려면 BlueXP 기술 자료를 검색하십시오.</block>
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXP 커뮤니티에 가입하여 진행 중인 토론을 팔로우하거나 새 토론을 만드십시오.</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">현재 보고 있는 BlueXP 문서입니다.</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">저희는 귀하의 의견을 소중하게 생각합니다. BlueXP 개선에 도움이 되는 피드백을 제출하십시오.</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 전문가와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">* 서비스 *: 문제와 관련된 서비스를 선택합니다. 예를 들어, 서비스 내의 워크플로우 또는 기능과 관련된 기술 지원 문제에 해당하는 BlueXP를 예로 들 수 있습니다.</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">* 작업 환경 *: 스토리지에 적용 가능한 경우 * Cloud Volumes ONTAP * 또는 * On-Premise * 를 선택한 다음 관련 작업 환경을 선택합니다.</block>
@@ -273,18 +257,13 @@
   <block id="890592abc0c43fcc710edb1dbdeaf2b3" category="paragraph">"템플릿"이라는 BlueXP 기능을 사용하면 데이터베이스 또는 스트리밍 서비스와 같은 특정 애플리케이션의 워크로드 요구 사항에 최적화된 볼륨을 생성할 수 있습니다. 조직에서 사용해야 하는 볼륨 템플릿을 만든 경우 를 따릅니다 <block ref="841f2986c591e442944fbc4b9e18c81f" category="inline-xref-macro-rx"></block>.</block>
   <block id="71fe7750eaf8ad346bfa5f8d17e350aa" category="paragraph">BlueXP는 볼륨을 프로비저닝하고 진행 상황을 볼 수 있도록 페이지를 표시합니다.</block>
   <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">볼륨을 호스트에 마운트할 수 있도록 BlueXP 내에서 마운트 지침에 액세스합니다.</block>
-  <block id="fdd2d4e114c9279ba4b9834452d83e5e" category="summary">BlueXP는 Azure NetApp Files 설정 및 관리 권한이 필요합니다. Azure Active Directory 응용 프로그램을 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 획득하여 Azure 계정에 필요한 권한을 부여할 수 있습니다.</block>
-  <block id="888f309d00a2cbabb98990f75343ace6" category="paragraph">BlueXP는 Azure NetApp Files 설정 및 관리 권한이 필요합니다. Azure AD(Active Directory) 응용 프로그램을 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 획득하여 Azure 계정에 필요한 권한을 부여할 수 있습니다.</block>
-  <block id="9a4aebca22c886eb8bdac5c93ce53cca" category="paragraph">BlueXP에서 역할 기반 액세스 제어에 사용할 수 있는 Azure AD 응용 프로그램 및 서비스 보안 주체를 만듭니다.</block>
   <block id="c1433d2b36933dc034014d989542d7e9" category="list-text">* 계정 유형 *: 계정 유형을 선택합니다(모두 BlueXP에서 사용 가능).</block>
   <block id="b1aa1d55e881ad620ccb7139a00c81e3" category="paragraph">BlueXP에서 Azure NetApp Files 작업 환경을 생성할 때 응용 프로그램의 응용 프로그램(클라이언트) ID와 디렉터리(테넌트) ID를 제공해야 합니다. BlueXP는 ID를 사용하여 프로그래밍 방식으로 로그인합니다.</block>
-  <block id="6a8c94be79eba11a4cff5b050f8725a0" category="list-text">BlueXP에서 응용 프로그램을 사용하여 Azure AD를 인증할 수 있도록 응용 프로그램에 대한 클라이언트 암호를 만듭니다.</block>
   <block id="c8bbf58eacf91dbdd1fe26d0891f53b2" category="paragraph">이제 AD 응용 프로그램이 설정되고 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사해야 합니다. Azure NetApp Files 작업 환경을 추가할 때 BlueXP에 이 정보를 입력해야 합니다.</block>
   <block id="c86a116404367cba7aa3de3c0bc355d4" category="paragraph">BlueXP의 서비스 보안 주체는 이제 해당 구독에 필요한 Azure 권한을 가지고 있습니다.</block>
   <block id="ec8be1aa6f229a1cfbf31d037b056568" category="summary">BlueXP의 Azure NetApp Files 지원에 대한 새로운 기능에 대해 알아보십시오.</block>
   <block id="dd8cfbf7cdf2a4e727620130a84e82ae" category="paragraph">BlueXP의 Azure NetApp Files의 새로운 기능에 대해 알아보십시오.</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP에 대한 고지 사항</block>
-  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">다음 단계</block>
   <block id="333d9261c295516441352ec57f1fbd5a" category="section-title">볼륨의 크기와 태그를 편집합니다</block>
@@ -306,14 +285,12 @@
   <block id="cb9e3791dcb67c8a699c104be6a1c49c" category="paragraph"><block ref="cb9e3791dcb67c8a699c104be6a1c49c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="11832df968cbb4cdb8e45984c11a77d0" category="list-text">자격 증명 추가 * 를 클릭하고 마법사의 단계를 따릅니다.</block>
   <block id="221a3347761fd117ac4eff9ade4378ad" category="list-text">* 자격 증명 위치 *: * Microsoft Azure &gt; BlueXP * 를 선택합니다.</block>
-  <block id="5d1285233566f1379ef88c010de06abc" category="list-text">* 자격 증명 정의 *: 필요한 권한을 부여하는 Azure Active Directory 서비스 보안 주체에 대한 정보를 입력합니다.</block>
   <block id="734082edf44417dd19cc65943aa65c36" category="list-text">클라이언트 암호</block>
   <block id="5f92aba7d335e90da33ac643d56ed817" category="list-text">애플리케이션(클라이언트) ID입니다</block>
   <block id="ac1fdeeca5975112ea2d53b754a4c94f" category="list-text">디렉토리(테넌트) ID입니다</block>
   <block id="c543fc2439a41974bc2b6bac672d9710" category="inline-xref">AD 응용 프로그램을 만들었습니다</block>
   <block id="afc754526203b8139d9e8e3b479e16eb" category="paragraph">이 정보를 캡처해야 합니다 <block ref="4c04735d63ac87af1416aeb4d3d106f8" category="inline-xref-macro-rx"></block>.</block>
   <block id="cc993521b8909c4085841bf25067d9c0" category="list-text">* 검토 *: 새 자격 증명에 대한 세부 정보를 확인하고 * 추가 * 를 클릭합니다.</block>
-  <block id="09615c2374e9b5e0bb5df8ac7a3d3904" category="paragraph">Azure Active Directory 응용 프로그램을 설정하고 자격 증명을 BlueXP에 추가한 후 필요한 볼륨 생성을 시작할 수 있도록 Azure NetApp Files 작업 환경을 만듭니다.</block>
   <block id="2083c7d3800af1239db96fe1162f3655" category="list-text">Microsoft Azure * 를 선택합니다.</block>
   <block id="911c1f7504e1a21488e846b256b7bf1e" category="list-text">Azure NetApp Files 옆에 있는 * Discover * 를 선택합니다.</block>
   <block id="a34beec1b7d6385ec53b27551b09442d" category="list-text">세부 정보 페이지에서 작업 환경 이름을 입력하고 이전에 설정한 자격 증명을 선택합니다.</block>
@@ -431,13 +408,27 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자의 파일 서비스에 대한 지원을 받습니다</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스에 관한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.</block>
-  <block id="0e9444646fd7a9680fc38b22818537e3" category="section-title">1단계: AD 응용 프로그램을 만듭니다</block>
   <block id="fb9a62d97d21e431e752501f84624d12" category="section-title">2단계: 응용 프로그램을 역할에 할당합니다</block>
   <block id="8aa26a83223c9e21349efd7c3717ce88" category="section-title">3단계: BlueXP에 자격 증명을 추가합니다</block>
-  <block id="a411739869aa60f9730ad4b362f8561a" category="summary">Azure Active Directory 애플리케이션을 설정하고 작업 환경을 만들어 Azure NetApp Files를 시작하십시오.</block>
   <block id="65ce4dce26160be29539699c6623e379" category="doc">워크플로를 시작합니다</block>
-  <block id="916f4838efcb3a299051cc70e41f521e" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="ed69a3c57e90df42781856a93d94fa32" category="inline-link-macro-rx"></block></block>
   <block id="f952808a17fec1373e3f634132b93787" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="b5471f633d6bbd5984c5b9bab2234762" category="inline-link-macro-rx"></block></block>
   <block id="b8d5d2846f8945e381075b2ce9a76df4" category="paragraph">BlueXP에서 * 작업 환경 추가 * &gt; * Microsoft Azure * &gt; * Azure NetApp Files * 를 클릭한 다음 AD 애플리케이션에 대한 세부 정보를 제공하십시오.</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
+  <block id="dece545908f7d551fbfc273f6cc28bd0" category="summary">Microsoft Entra 애플리케이션을 설정한 후 BlueXP에서 Azure NetApp Files 작업 환경을 조성하여 필요한 볼륨을 생성할 수 있습니다.</block>
+  <block id="68edde29e94c43ede539f86c9f17f4cf" category="paragraph">Microsoft Entra 애플리케이션을 설정하고 BlueXP에 자격 증명을 추가한 후 필요한 볼륨 생성을 시작할 수 있도록 Azure NetApp Files 작업 환경을 생성합니다.</block>
+  <block id="9828caa55f8611addd0e5af14cd444c5" category="summary">BlueXP는 Azure NetApp Files 설정 및 관리 권한이 필요합니다. Microsoft Entra 애플리케이션을 생성 및 설정하고 BlueXP에 필요한 Azure 자격 증명을 획득하여 Azure 계정에 필요한 권한을 부여할 수 있습니다.</block>
+  <block id="6db31f7ad9ac5c8a399245b8721663fc" category="doc">Microsoft Entra 응용 프로그램을 설정합니다</block>
+  <block id="28f3ebeb284e106f3db1ecdcf0c0d2ff" category="section-title">단계 1: 응용 프로그램을 만듭니다</block>
+  <block id="1e6c9b3850b2a8aff77429d3da407ad1" category="paragraph">BlueXP가 역할 기반 액세스 제어에 사용할 수 있는 Microsoft Entra 애플리케이션 및 서비스 보안 주체를 생성합니다.</block>
+  <block id="3acc75f616414df16724fc2f4fe192eb" category="list-text">Azure 포털에서 * Microsoft Entra ID * 서비스를 엽니다.</block>
+  <block id="5ee9dc93089da3e95c9863f5259127a3" category="paragraph"><block ref="5ee9dc93089da3e95c9863f5259127a3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7f2c8aa68f18e907a3c5a92e556d4a8a" category="inline-image-macro">Microsoft Entra ID의 응용 프로그램에 대한 응용 프로그램(클라이언트) ID 및 디렉터리(테넌트) ID를 보여 주는 스크린샷.</block>
+  <block id="9f4ee24450c803ea94c43753456d43d1" category="paragraph"><block ref="9f4ee24450c803ea94c43753456d43d1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f397beec7c156a0c172682237bca0f10" category="list-text">애플리케이션에 대한 클라이언트 암호를 생성하여 BlueXP에서 Microsoft Entra ID를 통해 인증할 수 있도록 합니다.</block>
+  <block id="9056be4df2e385c15b0e73176bcf8af3" category="inline-image-macro">Microsoft Entra 서비스 보안 주체의 클라이언트 암호를 보여 주는 Azure 포털 스크린샷</block>
+  <block id="12714cc76b41e78029a66f330408bd82" category="paragraph"><block ref="12714cc76b41e78029a66f330408bd82" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="10d9864d222fd249479246f9c50df58c" category="list-text">* 자격 증명 정의 *: 필요한 권한을 부여하는 Microsoft Entra 서비스 보안 주체에 대한 정보를 입력합니다.</block>
+  <block id="ffbef04ea072f1887001d16556efc89e" category="summary">Microsoft Entra 응용 프로그램을 설정하고 작업 환경을 만들어 Azure NetApp Files를 시작하십시오.</block>
+  <block id="4825dc1eb26b7e7de707e1565fcb2692" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="ceb71631b57ba9aa78ded8805cd28ebf" category="inline-link-macro-rx"></block></block>
+  <block id="0e63ec6ed03b6c3507b12798044de570" category="paragraph">Azure에서 Microsoft Entra 응용 프로그램에 권한을 부여하고 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사합니다.</block>
 </blocks>
