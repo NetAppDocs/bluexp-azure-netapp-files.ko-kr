@@ -86,7 +86,6 @@
   <block id="af08318aa95b670c097bf944ab12d208" category="summary">작업 환경을 설정한 후 Azure NetApp Files 계정, 용량 풀 및 볼륨을 생성할 수 있습니다.</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">볼륨 생성</block>
   <block id="15b71829402124199d38fc483f8a71b5" category="paragraph">새 Azure NetApp Files 계정 또는 기존 계정에 NFS 또는 SMB 볼륨을 생성할 수 있습니다.</block>
-  <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">수행할 수 있습니다</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">시작하기 전에</block>
   <block id="871a29db0a928b46295d82cee2357c13" category="list-text">SMB를 사용하려면 DNS 및 Active Directory를 설정해야 합니다.</block>
   <block id="943219d5074bb5ad25a6a5caf2ffdd2a" category="list-text">SMB 볼륨을 생성할 계획이라면 연결할 수 있는 Windows Active Directory 서버가 있어야 합니다. 볼륨을 생성할 때 이 정보를 입력합니다.</block>
@@ -113,26 +112,6 @@
   <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">새 볼륨이 작업 환경에 추가됩니다.</block>
   <block id="eaae7feedfb57c4ccdcc53c186726c56" category="inline-xref">클라우드 볼륨을 마운트합니다</block>
   <block id="2f8952d0a4fb138ef90f78fb9a50fe88" category="paragraph">를 계속 진행합니다 <block ref="b0f2178360372267ad19e1e8e4741e99" category="inline-xref-macro-rx"></block>.</block>
-  <block id="a37f6000ecd62b3a2058de32fa603d0a" category="section-title">템플릿에서 볼륨 생성</block>
-  <block id="4a856903cf54bbb57bd5703d54583103" category="paragraph">조직에서 특정 애플리케이션의 워크로드 요구사항에 최적화된 볼륨을 구축할 수 있도록 Azure NetApp Files 볼륨 템플릿을 만들었다면 이 섹션의 단계를 따르십시오.</block>
-  <block id="8d69897f39fda1e4779ad2d9ff4939c4" category="paragraph">용량 풀, 크기, 프로토콜, VNET 및 볼륨이 상주해야 하는 서브넷 등과 같은 특정 볼륨 매개 변수가 이미 템플릿에 정의되기 때문에 템플릿을 사용하면 작업이 더 쉬워집니다. 매개 변수가 이미 미리 정의된 경우 다음 볼륨 매개 변수로 건너뛸 수 있습니다.</block>
-  <block id="f1a38681016ccf53a8d2c2fad98c7db2" category="list-text">Canvas 페이지에서 볼륨을 프로비저닝할 Azure NetApp Files 작업 환경을 클릭합니다.</block>
-  <block id="024205acf9405311336c02bbd2193b70" category="inline-image-macro">자세히 단추</block>
-  <block id="f96393c48de5eddb1a2818124e9040b6" category="list-text">을 클릭합니다 <block ref="c01b692574fda287c7455bfbcec2709c" category="inline-image-macro-rx" type="image"></block> &gt; * 템플릿에서 볼륨 추가 *.</block>
-  <block id="74099e7b70c30e3a55db543cda9bfc1e" category="inline-image-macro">템플릿에서 새 볼륨을 추가하는 방법을 보여 주는 스크린샷</block>
-  <block id="098587c5859901ecc32e7a709cb2129f" category="paragraph"><block ref="098587c5859901ecc32e7a709cb2129f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5b33742921c3a09b3c0916cff2d87632" category="list-text">Select Template_page에서 볼륨을 생성하는 데 사용할 템플릿을 선택하고 * Next * 를 클릭합니다.</block>
-  <block id="41fdbb8293e553892079d0e7ad8a9ad9" category="inline-image-macro">사용 가능한 응용 프로그램 템플릿의 스크린샷.</block>
-  <block id="e9be4d5050c4e00aff6426b7045f1b6a" category="paragraph"><block ref="e9be4d5050c4e00aff6426b7045f1b6a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8675916eaff2fb10955e8a3b1b14108f" category="paragraph">Define Parameters_page가 표시됩니다.</block>
-  <block id="19f5b7f92268b2f8e63e4083819666c9" category="inline-image-macro">볼륨을 생성하기 위해 입력해야 하는 빈 템플릿을 보여 주는 스크린샷</block>
-  <block id="93fdd25da4e72c932b99d601b637202f" category="paragraph"><block ref="93fdd25da4e72c932b99d601b637202f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="31f425aaa6a26f3fc5e635704753602f" category="paragraph">* 참고: * 해당 매개 변수의 값을 보려면 * 읽기 전용 매개 변수 표시 * 확인란을 클릭하여 템플릿에 의해 잠긴 모든 필드를 표시할 수 있습니다. 기본적으로 이러한 미리 정의된 필드는 숨겨지고 완료해야 하는 필드만 표시됩니다.</block>
-  <block id="2bc51d1d472e80f2611fe5ff280c4ebe" category="list-text">이 볼륨에 필요한 모든 매개 변수를 정의한 후 * 템플릿 실행 * 을 클릭합니다.</block>
-  <block id="40136e65ff57723941fc2af2bf21d54a" category="inline-image-macro">템플릿에서 새 볼륨 생성 진행률을 보여 주는 스크린샷</block>
-  <block id="4ad07dd99a58c5fa556826f4f972a56e" category="paragraph"><block ref="4ad07dd99a58c5fa556826f4f972a56e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3fcf4599fd910141dcd628a7411238d5" category="paragraph">그러면 새 볼륨이 작업 환경에 추가됩니다.</block>
-  <block id="0753d577f87c3ce7385e295a5cc23407" category="paragraph">클라우드 볼륨을 계속 마운트합니다.</block>
   <block id="2a4a19d3d732c5f7aa35fa729ac0d8ac" category="section-title">볼륨을 마운트합니다</block>
   <block id="8298547bbbd227879ca27d72eedeb07a" category="list-text">볼륨 위로 마우스를 이동하고 * 볼륨 마운트 * 를 선택합니다.</block>
   <block id="ed098667e58a3c583c4147e4fd6baaa8" category="inline-image-macro">볼륨 위로 커서를 가져가면 사용 가능한 작업의 스크린샷이 표시됩니다.</block>
@@ -182,7 +161,6 @@
   <block id="95fa237a7a6265df02b6172c4be387f7" category="section-title">2020년 8월 3일</block>
   <block id="173fd2f937506a4111b0bc09349619a8" category="section-title">2020년 4월 5일</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
@@ -254,8 +232,6 @@
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"선택한 서비스에 대해 케이스를 생성할 권한이 없습니다."</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">제품 내 채팅을 사용합니다</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">에서 비기술 케이스를 제출하십시오<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
-  <block id="890592abc0c43fcc710edb1dbdeaf2b3" category="paragraph">"템플릿"이라는 BlueXP 기능을 사용하면 데이터베이스 또는 스트리밍 서비스와 같은 특정 애플리케이션의 워크로드 요구 사항에 최적화된 볼륨을 생성할 수 있습니다. 조직에서 사용해야 하는 볼륨 템플릿을 만든 경우 를 따릅니다 <block ref="841f2986c591e442944fbc4b9e18c81f" category="inline-xref-macro-rx"></block>.</block>
-  <block id="71fe7750eaf8ad346bfa5f8d17e350aa" category="paragraph">BlueXP는 볼륨을 프로비저닝하고 진행 상황을 볼 수 있도록 페이지를 표시합니다.</block>
   <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">볼륨을 호스트에 마운트할 수 있도록 BlueXP 내에서 마운트 지침에 액세스합니다.</block>
   <block id="c1433d2b36933dc034014d989542d7e9" category="list-text">* 계정 유형 *: 계정 유형을 선택합니다(모두 BlueXP에서 사용 가능).</block>
   <block id="b1aa1d55e881ad620ccb7139a00c81e3" category="paragraph">BlueXP에서 Azure NetApp Files 작업 환경을 생성할 때 응용 프로그램의 응용 프로그램(클라이언트) ID와 디렉터리(테넌트) ID를 제공해야 합니다. BlueXP는 ID를 사용하여 프로그래밍 방식으로 로그인합니다.</block>
@@ -387,8 +363,6 @@
   <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">를 선택하여 테이블에 표시되는 열을 변경합니다 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 표시할 열을 선택합니다.</block>
   <block id="348552521b849746260fe8d296d34c15" category="list-text">를 선택하여 기존 케이스를 관리합니다 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 사용 가능한 옵션 중 하나를 선택합니다.</block>
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">* 케이스 종료 *: 케이스를 종료하는 이유에 대한 세부 정보를 제공하고 * 케이스 닫기 * 를 선택합니다.</block>
-  <block id="2ed978d3284ec9503be973d54abd5507" category="inline-xref">볼륨 생성</block>
-  <block id="d3685c976ba0d8be55399dcb8023edd0" category="list-text">템플릿에서 하드 코딩되지 않은 모든 매개변수에 대한 값을 추가합니다. 을 참조하십시오 <block ref="94c7da97446a939ca89601c141819f83" category="inline-xref-macro-rx"></block> Azure NetApp Files 볼륨을 구축하기 위해 완료해야 하는 모든 매개 변수에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -431,4 +405,8 @@
   <block id="ffbef04ea072f1887001d16556efc89e" category="summary">Microsoft Entra 응용 프로그램을 설정하고 작업 환경을 만들어 Azure NetApp Files를 시작하십시오.</block>
   <block id="4825dc1eb26b7e7de707e1565fcb2692" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="ceb71631b57ba9aa78ded8805cd28ebf" category="inline-link-macro-rx"></block></block>
   <block id="0e63ec6ed03b6c3507b12798044de570" category="paragraph">Azure에서 Microsoft Entra 응용 프로그램에 권한을 부여하고 응용 프로그램(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호 값을 복사합니다.</block>
+  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024년 4월 22일</block>
+  <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">볼륨 템플릿은 더 이상 지원되지 않습니다</block>
+  <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">더 이상 템플릿에서 볼륨을 생성할 수 없습니다. 이 작업은 BlueXP 해결 서비스와 연계되었으며, 더 이상 사용할 수 없습니다.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp는 지원 및 라이센스와 관련된 인증 서비스의 ID 공급자로 Microsoft Entra ID를 사용합니다.</block>
 </blocks>
