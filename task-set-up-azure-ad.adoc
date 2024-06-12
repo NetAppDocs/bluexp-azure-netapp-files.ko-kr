@@ -97,6 +97,7 @@ image:screenshot_azure_access_control.gif["Azure 포털에서 사용자 지정 �
     "Microsoft.Resources/subscriptions/resourcegroups/resources/read",
     "Microsoft.Resources/subscriptions/resourceGroups/write",
     "Microsoft.Network/virtualNetworks/read",
+    "Microsoft.Network/virtualNetworks/subnets/read",
     "Microsoft.Insights/Metrics/Read"
     ],
 ----

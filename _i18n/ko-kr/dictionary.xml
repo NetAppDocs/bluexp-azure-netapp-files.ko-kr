@@ -409,4 +409,12 @@
   <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">볼륨 템플릿은 더 이상 지원되지 않습니다</block>
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">더 이상 템플릿에서 볼륨을 생성할 수 없습니다. 이 작업은 BlueXP 해결 서비스와 연계되었으며, 더 이상 사용할 수 없습니다.</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp는 지원 및 라이센스와 관련된 인증 서비스의 ID 공급자로 Microsoft Entra ID를 사용합니다.</block>
+  <block id="bbe4d8abcc3519b138a73b8e46ee2119" category="section-title">2024년 6월 12일</block>
+  <block id="bb123d17400bea06780499dfee0aa1eb" category="section-title">새 권한이 필요합니다</block>
+  <block id="19c74b0651bd4a8c13580d2b199c9dcb" category="paragraph">이제 BlueXP에서 Azure NetApp Files 볼륨을 관리하려면 다음 권한이 필요합니다.</block>
+  <block id="d84dc0ddea3fe691a4f90418dade9248" category="paragraph">Microsoft.Network/virtualNetworks/subnets/read</block>
+  <block id="642c767a957f879cd5a09310eef9e35e" category="paragraph">가상 네트워크 서브넷을 읽으려면 이 권한이 필요합니다.</block>
+  <block id="f1c8aee091d7af06827bd81ed4e56e5a" category="paragraph">현재 BlueXP에서 Azure NetApp Files를 관리하고 있는 경우 이전에 생성한 Microsoft Entra 애플리케이션과 연결된 사용자 지정 역할에 이 권한을 추가해야 합니다.</block>
+  <block id="49cb664c5b71b8da627e27d37fe9de88" category="inline-link">Microsoft Entra 응용 프로그램을 설정하고 사용자 지정 역할 권한을 보는 방법에 대해 알아봅니다</block>
+  <block id="dd9368e78fe4f3483d324b6a988d2f87" category="paragraph"><block ref="aa8b5c9ebdcb57c9427e7bd28a70f7d0" category="inline-link-rx"></block>.</block>
 </blocks>
