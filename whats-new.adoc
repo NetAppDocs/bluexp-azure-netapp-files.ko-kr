@@ -18,35 +18,23 @@ BlueXP의 Azure NetApp Files의 새로운 기능에 대해 알아보십시오.
 
 
 
-== 2024년 6월 12일
+== 2024년 1월 13일
 
 
 
-=== 새 권한이 필요합니다
+=== 이제 BlueXP 에서 네트워크 기능이 지원됩니다
 
-이제 BlueXP에서 Azure NetApp Files 볼륨을 관리하려면 다음 권한이 필요합니다.
-
-Microsoft.Network/virtualNetworks/subnets/read
-
-가상 네트워크 서브넷을 읽으려면 이 권한이 필요합니다.
-
-현재 BlueXP에서 Azure NetApp Files를 관리하고 있는 경우 이전에 생성한 Microsoft Entra 애플리케이션과 연결된 사용자 지정 역할에 이 권한을 추가해야 합니다.
-
-https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html["Microsoft Entra 응용 프로그램을 설정하고 사용자 지정 역할 권한을 보는 방법에 대해 알아봅니다"].
-
-
-
-== 2024년 4월 22일
-
-
-
-=== 볼륨 템플릿은 더 이상 지원되지 않습니다
-
-더 이상 템플릿에서 볼륨을 생성할 수 없습니다. 이 작업은 BlueXP 해결 서비스와 연계되었으며, 더 이상 사용할 수 없습니다.
+BlueXP 의 Azure NetApp Files에서 볼륨을 구성할 때 이제 네트워크 기능을 지정할 수 있습니다. 이는 네이티브 Azure NetApp Files에서 제공되는 기능에 맞게 조정됩니다.
 
 
 
 == 2021년 4월 11일
+
+
+
+=== 볼륨 템플릿 지원
+
+새로운 애플리케이션 템플릿 서비스를 사용하면 Azure NetApp Files용 볼륨 템플릿을 설정할 수 있습니다. 용량 풀, 크기, 프로토콜, VNET 및 볼륨이 상주해야 하는 서브넷 등과 같은 특정 볼륨 매개 변수가 이미 템플릿에 정의되기 때문에 템플릿을 사용하면 작업이 더 쉬워집니다. 매개 변수가 이미 미리 정의된 경우 다음 볼륨 매개 변수로 건너뛸 수 있습니다.
 
 
 
