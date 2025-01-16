@@ -18,7 +18,7 @@ BlueXP의 Azure NetApp Files의 새로운 기능에 대해 알아보십시오.
 
 
 
-== 2024년 1월 13일
+== 2025년 1월 13일
 
 
 
@@ -28,7 +28,7 @@ BlueXP 의 Azure NetApp Files에서 볼륨을 구성할 때 이제 네트워크
 
 
 
-== bbe4d8abcc3519b138a73b8e46ee2119
+== 2024년 6월 12일
 
 
 
@@ -46,7 +46,7 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 
-== 9d5b3307d5a7d5905623bf21ab049bdd
+== 2024년 4월 22일
 
 
 
